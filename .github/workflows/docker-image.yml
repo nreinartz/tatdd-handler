@@ -20,8 +20,8 @@ jobs:
               uses: docker/metadata-action@v5
               with:
                   images: |
-                      nreinartz/tatdd-handler
-                      ghcr.io/nreinartz/tatdd-handler
+                      ${{ GITHUB_ACTION_REPOSITORY }}
+                      ghcr.io/${{ GITHUB_ACTOR }}/${{ GITHUB_ACTION_REPOSITORY }}
                   tags: |
                       type=raw,value=${{ env.VERSION }}
                       type=sha
