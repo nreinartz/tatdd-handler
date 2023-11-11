@@ -7,6 +7,7 @@ LABEL org.opencontainers.image.authors="Nico Reinartz <nico.reinartz@rwth-aachen
 LABEL org.opencontainers.image.vendor="Nico Reinartz"
 LABEL org.opencontainers.image.title="Trend Detection Bot Handler"
 LABEL org.opencontainers.image.description="Bot handler service for the trend detection project"
+LABEL org.opencontainers.image.source = "https://github.com/nreinartz/tatdd-handler"
 
 WORKDIR /app
 

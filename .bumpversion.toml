@@ -19,3 +19,6 @@ values = [
 
 [[tool.bumpversion.files]]
 filename = "Dockerfile"
+
+[[tool.bumpversion.files]]
+filename = ".github/workflows/docker-image.yml"
