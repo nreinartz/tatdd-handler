@@ -19,4 +19,4 @@ COPY ./src .
 
 ENV TREND_API_HOST="https://trendbot.milki-psy.dbis.rwth-aachen.de"
 
-CMD ["uvicorn", "main:app", "--proxy-headers", "--host", "1.0.0-dev.3.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--proxy-headers", "--host", "0.0.0.0", "--port", "8000"]
