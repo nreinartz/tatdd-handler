@@ -4,12 +4,11 @@ from models.shared import QueryRequest
 
 
 class ChatSession:
-    def __init__(self, botName, channel, messenger):
+    def __init__(self, botName, channel, messenger, sbf_base_url):
         self.messenger = messenger
         self.botName = botName
         self.channel = channel
-        self.webhookEndpoint = "http://localhost:8090/SBFManager/bots/{}/webhook".format(
-            botName)
+        self.webhookEndpoint = f"{sbf_base_url}/bots/{botName}/webhook"
 
     def send_message(self, text):
         data = {

@@ -8,12 +8,13 @@ import uvicorn
 
 load_dotenv()
 TREND_API_HOST = os.getenv("TREND_API_HOST")
+SBF_API_HOST = os.getenv("SBF_API_HOST")
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     app.state.sessions = {}
-    app.state.bot_handler = BotHandler(TREND_API_HOST)
+    app.state.bot_handler = BotHandler(TREND_API_HOST, SBF_API_HOST)
     yield
 
 app = FastAPI(openapi_url="/swagger.json", lifespan=lifespan)

@@ -7,9 +7,10 @@ from models.shared import QueryRequest, QueryProgress, QueryType, TrendType
 
 
 class BotHandler:
-    def __init__(self, api_base_url: str):
+    def __init__(self, api_base_url: str, sbf_base_url: str):
         self.sessions = {}
         self.api_base_url = api_base_url
+        self.sbf_base_url = sbf_base_url
 
     def process_repeat_request(self, request_body, last_query_session: QuerySession) -> tuple[dict, QuerySession]:
         updated_parameters: QueryRequest = self.__extract_query_parameters(
@@ -43,7 +44,11 @@ class BotHandler:
         )
 
         chat_session = ChatSession(
-            request_body["botName"], request_body["channel"], "trenddetectionbot")
+            request_body["botName"],
+            request_body["channel"],
+            "trenddetectionbot",
+            self.sbf_base_url
+        )
 
         try:
             query = self.create_session(parameters)
@@ -67,7 +72,11 @@ class BotHandler:
         )
 
         chat_session = ChatSession(
-            request_body["botName"], request_body["channel"], "trenddetectionbot")
+            request_body["botName"],
+            request_body["channel"],
+            "trenddetectionbot",
+            self.sbf_base_url
+        )
 
         try:
             query = self.create_session(
