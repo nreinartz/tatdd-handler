@@ -15,9 +15,25 @@ class QueryProgress(int, Enum):
     ANALYSING_TRENDS = 3
     GENERATING_DESCRIPTION = 4
     DISCOVERING_TOPICS = 5
-    CITATION_RETRIEVAL = 6
-    FINISHED = 7
-    FAILED = 8
+    CLUSTERING_TOPICS = 6
+    CITATION_RETRIEVAL = 7
+    FINISHED = 8
+    FAILED = 9
+
+
+class TrendType(int, Enum):
+    NONE = 0
+    INCREASING = 1
+    DECREASING = 2
+
+
+class QueryRequest(BaseModel):
+    query_type: QueryType
+    topics: list[str]
+    start_year: int
+    end_year: int
+    distance: float = 0.11
+    min_citations: int = 0
 
 
 class QueryRequest(BaseModel):
@@ -34,12 +50,6 @@ class SearchResults:
     raw: list[float]
     adjusted: list[float]
     pub_types: dict[str, int]
-
-
-class TrendType(int, Enum):
-    NONE = 0
-    INCREASING = 1
-    DECREASING = 2
 
 
 @dataclass
@@ -73,15 +83,25 @@ class Publication:
 
 @dataclass
 class DiscoveredTopic:
-    name: str
+    id: int
     words: list[list[str]]
     frequencies: list[int]
     timestamps: list[int]
 
 
 @dataclass
+class ClusteringResults:
+    points_x: list[float]
+    points_y: list[float]
+    points_z: list[float]
+    topic_labels: list[int]
+
+
+@dataclass
 class TopicDiscoveryResults:
-    topics: list[DiscoveredTopic]
+    topics: dict[str, str]
+    clusters: ClusteringResults
+    topics_over_time: list[DiscoveredTopic]
 
 
 @dataclass
@@ -108,3 +128,9 @@ class QueryEntry:
     distance: float
     min_citations: int
     results: None | AnalysisResults | CitationRecommendationResults
+
+
+@dataclass
+class DataStatistics:
+    total_publications: int
+    publications_per_year: dict[int, int]
