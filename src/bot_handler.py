@@ -113,17 +113,26 @@ class BotHandler:
         return response.json()
 
     async def track_analysis_progress(self, query_session: QuerySession):
-        current_progress = QueryProgress.DATA_RETRIEVAL
+        handled_progress = {
+            QueryProgress.DATA_RETRIEVAL: False,
+            QueryProgress.ANALYSING_TRENDS: False,
+            QueryProgress.CITATION_RETRIEVAL: False
+        }
 
         while True:
             session = self.get_query_summary(query_session.uuid)
 
-            if session["progress"] > current_progress:
-                self.__process_progress(
-                    query_session, current_progress, session["progress"])
-                current_progress = session["progress"]
+            for progress in handled_progress:
+                if handled_progress[progress] or session["progress"] < progress:
+                    continue
 
-            if session["progress"] == QueryProgress.CLUSTERING_TOPICS:
+                handled_progress[progress] = True
+                self.__process_progress(
+                    query_session,
+                    handled_progress[progress]
+                )
+
+            if all(handled_progress.values()) or session["progress"] == QueryProgress.FAILED:
                 break
 
             await asyncio.sleep(1)
@@ -143,16 +152,14 @@ class BotHandler:
 
             await asyncio.sleep(1)
 
-    def __process_progress(self, query_session: QuerySession, old_progress: QueryProgress, new_progress: QueryProgress):
-        if old_progress < QueryProgress.DATA_RETRIEVAL <= new_progress:
+    def __process_progress(self, query_session: QuerySession, progress: QueryProgress):
+        if progress == QueryProgress.DATA_RETRIEVAL:
             query_session.chat_session.send_message(
-                "Retrieving relevant publications ...")
-        if old_progress < QueryProgress.ANALYSING_TRENDS <= new_progress:
+                "Retrieving relevant publications ..."
+            )
+        if progress == QueryProgress.ANALYSING_TRENDS:
             self.__process_analysing_trends(query_session)
-        if old_progress < QueryProgress.GENERATING_DESCRIPTION <= new_progress:
-            # Do nothing here, since this is fast
-            return
-        if old_progress < QueryProgress.CLUSTERING_TOPICS <= new_progress:
+        if progress == QueryProgress.CITATION_RETRIEVAL:
             self.__process_trend_results(query_session)
 
             query_session.chat_session.send_message(
