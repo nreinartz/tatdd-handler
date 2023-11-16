@@ -152,10 +152,8 @@ class BotHandler:
         if old_progress < QueryProgress.GENERATING_DESCRIPTION <= new_progress:
             # Do nothing here, since this is fast
             return
-        if old_progress < QueryProgress.CITATION_RETRIEVAL <= new_progress:
-            self.__process_trend_results(query_session)
         if old_progress < QueryProgress.CLUSTERING_TOPICS <= new_progress:
-            self.__process_citation_recommendation_results(query_session)
+            self.__process_trend_results(query_session)
 
             query_session.chat_session.send_message(
                 f"For more results and insights into your chosen topic, [look here]({self.api_base_url}/results/{query_session.uuid})"
@@ -177,6 +175,9 @@ class BotHandler:
         ]
 
         for index, trend in enumerate(query["results"]["trend_results"]["sub_trends"]):
+            if trend["type"] == TrendType.NONE:
+                continue
+
             icon = "📈" if trend["type"] == TrendType.INCREASING else "📉"
 
             trend_messages.append(
