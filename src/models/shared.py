@@ -119,7 +119,7 @@ class QueryEntry:
     end_year: int
     distance: float
     min_citations: int
-    results: None | AnalysisResults | CitationRecommendationResults
+    results: None | AnalysisResults
 
 
 @dataclass

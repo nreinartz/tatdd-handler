@@ -123,7 +123,7 @@ class BotHandler:
                     query_session, current_progress, session["progress"])
                 current_progress = session["progress"]
 
-            if session["progress"] == QueryProgress.FINISHED:
+            if session["progress"] == QueryProgress.CLUSTERING_TOPICS:
                 break
 
             await asyncio.sleep(1)
@@ -150,14 +150,16 @@ class BotHandler:
         if old_progress < QueryProgress.ANALYSING_TRENDS <= new_progress:
             self.__process_analysing_trends(query_session)
         if old_progress < QueryProgress.GENERATING_DESCRIPTION <= new_progress:
-            query_session.chat_session.send_message(
-                "Trend analysis complete. Generating results ...")
+            # Do nothing here, since this is fast
+            return
         if old_progress < QueryProgress.CITATION_RETRIEVAL <= new_progress:
             self.__process_trend_results(query_session)
+        if old_progress < QueryProgress.CLUSTERING_TOPICS <= new_progress:
+            self.__process_citation_recommendation_results(query_session)
 
-        query_session.chat_session.send_message(
-            f"If you want to have a close look at the results or more information about your topic, go here to see the full results: [Extended results]({self.api_base_url}/results/{query_session.uuid})"
-        )
+            query_session.chat_session.send_message(
+                f"For more results and insights into your chosen topic, [look here]({self.api_base_url}/results/{query_session.uuid})"
+            )
 
     def __process_analysing_trends(self, query_session: QuerySession):
         query = self.get_query(query_session.uuid)
@@ -170,11 +172,26 @@ class BotHandler:
     def __process_trend_results(self, query_session: QuerySession):
         query = self.get_query(query_session.uuid)
 
-        query_session.chat_session.send_message(
-            query["results"]["trend_results"]["trend_description"])
+        trend_messages = [
+            "Alright, I found the following trends for your topic:"
+        ]
 
-        query_session.chat_session.send_message(
-            f"![Trend chart]({self.api_base_url}/api/chart/{query_session.uuid})")
+        for index, trend in enumerate(query["results"]["trend_results"]["sub_trends"]):
+            icon = "📈" if trend["type"] == TrendType.INCREASING else "📉"
+
+            trend_messages.append(
+                f"{index + 1}. {icon} {trend['type'].name.lower()} trend from {trend['start']} to {trend['end']}"
+            )
+
+        trend_messages.append(
+            query["results"]["trend_results"]["trend_description"]
+        )
+
+        trend_messages.append(
+            f"![Trend chart]({self.api_base_url}/api/queries/{query_session.uuid}/chart)"
+        )
+
+        query_session.chat_session.send_message("\n".join(trend_messages))
 
     def __process_citation_recommendation_results(self, query_session: QuerySession):
         query = self.get_query(query_session.uuid)
