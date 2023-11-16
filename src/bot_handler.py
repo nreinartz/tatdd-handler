@@ -1,4 +1,5 @@
 import asyncio
+from dataclasses import asdict
 import logging
 import requests
 
@@ -98,7 +99,7 @@ class BotHandler:
     def create_session(self, parameters: QueryRequest, query_type: QueryType = QueryType.COMPLETE):
         url = f"{self.api_base_url}/api/queries"
         parameters.query_type = query_type
-        response = requests.post(url, json=parameters)
+        response = requests.post(url, json=asdict(parameters))
         return response.json()
 
     def get_query(self, uuid):
@@ -202,7 +203,14 @@ class BotHandler:
             return {}
 
         config: QueryRequest = QueryRequest(
-            QueryType.COMPLETE, [], 0.11, 1980, 2022, 0)
+            query_type=QueryType.COMPLETE,
+            topics=[],
+            distance=0.11,
+            start_year=1980,
+            end_year=2022,
+            min_citations=0
+        )
+
         entities = request_body["entities"]
 
         if "distance" in entities:
@@ -217,7 +225,7 @@ class BotHandler:
         if "minCitationCount" in entities:
             config.min_citations = int(entities["minCitationCount"]["value"])
 
-        for topic_keyword in ["topics", "analysis", "citrec"]:
+        for topic_keyword in ["topics", "analysis", "citrec", "trends"]:
             if topic_keyword in entities:
                 config.topics = self.__parse_topics(
                     entities[topic_keyword]["value"])

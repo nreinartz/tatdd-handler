@@ -8,7 +8,7 @@ class ChatSession:
         self.messenger = messenger
         self.botName = botName
         self.channel = channel
-        self.webhookEndpoint = f"{sbf_base_url}/bots/{botName}/webhook"
+        self.webhookEndpoint = f"{sbf_base_url}/SBFManager/bots/{botName}/webhook"
 
     def send_message(self, text):
         data = {

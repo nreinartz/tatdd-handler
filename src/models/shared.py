@@ -27,16 +27,8 @@ class TrendType(int, Enum):
     DECREASING = 2
 
 
-class QueryRequest(BaseModel):
-    query_type: QueryType
-    topics: list[str]
-    start_year: int
-    end_year: int
-    distance: float = 0.11
-    min_citations: int = 0
-
-
-class QueryRequest(BaseModel):
+@dataclass
+class QueryRequest:
     query_type: QueryType
     topics: list[str]
     start_year: int
