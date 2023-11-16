@@ -151,8 +151,12 @@ class BotHandler:
         if old_progress < QueryProgress.GENERATING_DESCRIPTION <= new_progress:
             query_session.chat_session.send_message(
                 "Trend analysis complete. Generating results ...")
-        if old_progress < QueryProgress.DISCOVERING_TOPICS <= new_progress:
+        if old_progress < QueryProgress.CITATION_RETRIEVAL <= new_progress:
             self.__process_trend_results(query_session)
+
+        query_session.chat_session.send_message(
+            f"If you want to have a close look at the results or more information about your topic, go here to see the full results: [Extended results]({self.api_base_url}/results/{query_session.uuid})"
+        )
 
     def __process_analysing_trends(self, query_session: QuerySession):
         query = self.get_query(query_session.uuid)
@@ -167,8 +171,9 @@ class BotHandler:
 
         query_session.chat_session.send_message(
             query["results"]["trend_results"]["trend_description"])
+
         query_session.chat_session.send_message(
-            f"{self.api_base_url}/api/chart/{query_session.uuid}")
+            f"![Trend chart]({self.api_base_url}/api/chart/{query_session.uuid})")
 
     def __process_citation_recommendation_results(self, query_session: QuerySession):
         query = self.get_query(query_session.uuid)
