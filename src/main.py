@@ -28,6 +28,7 @@ async def root():
 @app.post("/api/analysis")
 async def create_request(request: Request, background_tasks: BackgroundTasks):
     request_body = await request.json()
+
     response, query_session = app.state.bot_handler.process_create_request(
         request_body)
 
@@ -39,7 +40,7 @@ async def create_request(request: Request, background_tasks: BackgroundTasks):
         query_session
     )
 
-    app.state.sessions[request_body["conversationId"]] = query_session
+    app.state.sessions[request_body["channel"]] = query_session
 
     return response
 
@@ -48,21 +49,21 @@ async def create_request(request: Request, background_tasks: BackgroundTasks):
 async def repeat_request(request: Request, background_tasks: BackgroundTasks):
     request_body = await request.json()
 
-    if request_body["conversationId"] not in app.state.sessions:
+    if request_body["channel"] not in app.state.sessions:
         return {"text": "Sorry, I can't find a previous query. Please start a new one.", "closeContext": True}
 
     response, query_session = app.state.bot_handler.process_repeat_request(
-        request_body, app.state.sessions[request_body["conversationId"]])
+        request_body, app.state.sessions[request_body["channel"]])
 
     if query_session is None:
         return response
 
     background_tasks.add_task(
-        app.state.bot_handler.track_progress,
+        app.state.bot_handler.track_analysis_progress,
         query_session
     )
 
-    app.state.sessions[request_body["conversationId"]] = query_session
+    app.state.sessions[request_body["channel"]] = query_session
 
     return response
 
@@ -70,7 +71,7 @@ async def repeat_request(request: Request, background_tasks: BackgroundTasks):
 @app.post("/api/citrec")
 async def create_citrec_request(request: Request, background_tasks: BackgroundTasks):
     request_body = await request.json()
-    print(request_body)
+
     response, query_session = app.state.bot_handler.process_citation_recommendation(
         request_body
     )
