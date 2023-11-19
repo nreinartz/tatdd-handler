@@ -25,11 +25,11 @@
                 "value": {
                     "id": "81a51153cb7fa0211646196a[name]",
                     "name": "Name",
-                    "value": "trend-analysis-bot"
+                    "value": "trend-analysis-bot-telegram"
                 }
             },
-            "left": 4123.2783203125,
-            "top": 5241.073686599731,
+            "left": 4200.2783203125,
+            "top": 4809.073686599731,
             "width": 112.72724507812501,
             "height": 120.90906880859376,
             "zIndex": 16001,
@@ -41,7 +41,7 @@
                     "value": {
                         "id": "81a51153cb7fa0211646196a[name]",
                         "name": "Name",
-                        "value": "trend-analysis-bot"
+                        "value": "trend-analysis-bot-telegram"
                     }
                 }
             }
@@ -53,10 +53,10 @@
                 "value": {
                     "id": "5d14d1b54e18bdf29e48fe2d[name]",
                     "name": "Name",
-                    "value": "trenddetectionbot"
+                    "value": "trenddetectionbot-telegram"
                 }
             },
-            "left": 3882.2783203125,
+            "left": 3879.2783203125,
             "top": 4312.073806762695,
             "width": 50,
             "height": 50,
@@ -69,9 +69,9 @@
                     "value": {
                         "id": "5d14d1b54e18bdf29e48fe2d[messenger type]",
                         "name": "Messenger Type",
-                        "value": "Rocket.Chat"
+                        "value": "Telegram"
                     },
-                    "option": "Rocket.Chat"
+                    "option": "Telegram"
                 },
                 "fac7a2b850919e041f655919": {
                     "id": "5d14d1b54e18bdf29e48fe2d[name]",
@@ -79,7 +79,7 @@
                     "value": {
                         "id": "5d14d1b54e18bdf29e48fe2d[name]",
                         "name": "Name",
-                        "value": "trenddetectionbot"
+                        "value": "trenddetectionbot-telegram"
                     }
                 },
                 "4d07dc2fa7f97c4ef5834078": {
@@ -88,7 +88,7 @@
                     "value": {
                         "id": "5d14d1b54e18bdf29e48fe2d[authentication token]",
                         "name": "Authentication Token",
-                        "value": "acis_citation_bot:citbot:https://acis-chat.dbis.rwth-aachen.de"
+                        "value": ""
                     }
                 }
             }
@@ -100,11 +100,11 @@
                 "value": {
                     "id": "79ae478fd1b398eca7277328[name]",
                     "name": "Name",
-                    "value": "basic-knowledge"
+                    "value": "trendbot-knowledge"
                 }
             },
-            "left": 4152.743489583333,
-            "top": 5502.879828559027,
+            "left": 4467.743489583333,
+            "top": 4818.879828559027,
             "width": 50,
             "height": 50,
             "zIndex": 16003,
@@ -116,7 +116,7 @@
                     "value": {
                         "id": "79ae478fd1b398eca7277328[name]",
                         "name": "Name",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "c051de6af456e91e52c0c465": {
@@ -125,7 +125,7 @@
                     "value": {
                         "id": "79ae478fd1b398eca7277328[url]",
                         "name": "URL",
-                        "value": "http://rasa:5005"
+                        "value": "http://rasa-nlu.sbf:5005"
                     }
                 }
             }
@@ -140,8 +140,8 @@
                     "value": ""
                 }
             },
-            "left": 3500.994140625,
-            "top": 5271.832214355469,
+            "left": 3271.994140625,
+            "top": 6171.832214355469,
             "width": 50,
             "height": 50,
             "zIndex": 16014,
@@ -172,7 +172,7 @@
                     "value": {
                         "id": "7ee6965728e19d6f29713c7c[service alias]",
                         "name": "Service Alias",
-                        "value": "http://host.docker.internal:5999"
+                        "value": "http://tatdd-handler-service"
                     }
                 }
             }
@@ -187,8 +187,8 @@
                     "value": ""
                 }
             },
-            "left": 4137.671875,
-            "top": 4834.87727355957,
+            "left": 4312.671875,
+            "top": 4332.87727355957,
             "width": 50,
             "height": 50,
             "zIndex": 16024,
@@ -238,7 +238,7 @@
                     "value": {
                         "id": "7df94a06f83577cd752948c7[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -247,7 +247,7 @@
                     "value": {
                         "id": "7df94a06f83577cd752948c7[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -283,7 +283,7 @@
                     "value": {
                         "id": "7df94a06f83577cd752948c7[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -298,8 +298,8 @@
                     "value": ""
                 }
             },
-            "left": 4256.853759765625,
-            "top": 5077.96809387207,
+            "left": 4312.853759765625,
+            "top": 4473.96809387207,
             "width": 50,
             "height": 50,
             "zIndex": 16025,
@@ -326,8 +326,8 @@
                     "value": ""
                 }
             },
-            "left": 3670.1983119419638,
-            "top": 4466.079768589564,
+            "left": 3546.1983119419638,
+            "top": 4593.079768589564,
             "width": 50,
             "height": 50,
             "zIndex": 16027,
@@ -377,7 +377,7 @@
                     "value": {
                         "id": "4b7c9aa61b5818003d3f16be[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -386,7 +386,7 @@
                     "value": {
                         "id": "4b7c9aa61b5818003d3f16be[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -422,7 +422,7 @@
                     "value": {
                         "id": "4b7c9aa61b5818003d3f16be[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -437,10 +437,10 @@
                     "value": ""
                 }
             },
-            "left": 3491.878662109375,
-            "top": 4586.347263336182,
-            "width": 50,
-            "height": 50,
+            "left": 3269.878662109375,
+            "top": 4837.347263336182,
+            "width": 55.45407999999999,
+            "height": 55.454527460937506,
             "zIndex": 16028,
             "type": "Incoming Message",
             "attributes": {
@@ -488,7 +488,7 @@
                     "value": {
                         "id": "17b827c0872787a495d5f17a[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -497,7 +497,7 @@
                     "value": {
                         "id": "17b827c0872787a495d5f17a[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -524,7 +524,7 @@
                     "value": {
                         "id": "17b827c0872787a495d5f17a[message]",
                         "name": "Message",
-                        "value": "{\"editor-17b827c0872787a495d5f17amessage-1\":\"Alright, I will analyse the following topics:\\n[topics]\\nDo you want to adjust the distance or time range for the analysis? If yes, simply tell me what distance and/or year range to use. Otherwise say \\\"no\\\" or \\\"start\\\".\"}"
+                        "value": "{\"editor-17b827c0872787a495d5f17amessage-1\":\"Alright, I will analyse the following topics:\\n[topics]\\n\\nWhat parameters (distance, time range, both) do you want to adjust? If you want to use the default settings, simply say \\\"no\\\".\"}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -533,229 +533,7 @@
                     "value": {
                         "id": "17b827c0872787a495d5f17a[rateable]",
                         "name": "Rateable",
-                        "value": false
-                    }
-                }
-            }
-        },
-        "f49be9fe47ee91b70fd12a14": {
-            "label": {
-                "id": "f49be9fe47ee91b70fd12a14[label]",
-                "name": "Label",
-                "value": {
-                    "id": "f49be9fe47ee91b70fd12a14[label]",
-                    "name": "Label",
-                    "value": ""
-                }
-            },
-            "left": 3806.51513671875,
-            "top": 5010.210788726807,
-            "width": 50,
-            "height": 50,
-            "zIndex": 16029,
-            "type": "Incoming Message",
-            "attributes": {
-                "646c1466c4bf34e8267c4f27": {
-                    "id": "f49be9fe47ee91b70fd12a14[type]",
-                    "name": "Type",
-                    "value": {
-                        "id": "f49be9fe47ee91b70fd12a14[type]",
-                        "name": "Type",
-                        "value": "Text Message"
-                    },
-                    "option": "Text Message"
-                },
-                "5aefe0547e628a6019d3f613": {
-                    "id": "f49be9fe47ee91b70fd12a14[followup message type]",
-                    "name": "Followup Message Type",
-                    "value": {
-                        "id": "f49be9fe47ee91b70fd12a14[followup message type]",
-                        "name": "Followup Message Type",
-                        "value": "text"
-                    },
-                    "option": "text"
-                },
-                "869849f65db9be737e99bd24": {
-                    "id": "f49be9fe47ee91b70fd12a14[intent keyword]",
-                    "name": "Intent Keyword",
-                    "value": {
-                        "id": "f49be9fe47ee91b70fd12a14[intent keyword]",
-                        "name": "Intent Keyword",
-                        "value": "adjustTimeRange+adjustDistance"
-                    }
-                },
-                "e7d374a1e2d32c5e67bc68cc": {
-                    "id": "f49be9fe47ee91b70fd12a14[intent label]",
-                    "name": "Intent Label",
-                    "value": {
-                        "id": "f49be9fe47ee91b70fd12a14[intent label]",
-                        "name": "Intent Label",
-                        "value": ""
-                    }
-                },
-                "3e8bfec67da28c354a969b46": {
-                    "id": "f49be9fe47ee91b70fd12a14[nlu id]",
-                    "name": "NLU ID",
-                    "value": {
-                        "id": "f49be9fe47ee91b70fd12a14[nlu id]",
-                        "name": "NLU ID",
-                        "value": "basic-knowledge"
-                    }
-                },
-                "8f8bee572ff26bedbfb46783": {
-                    "id": "f49be9fe47ee91b70fd12a14[isfile]",
-                    "name": "IsFile",
-                    "value": {
-                        "id": "f49be9fe47ee91b70fd12a14[isfile]",
-                        "name": "IsFile",
-                        "value": false
-                    }
-                },
-                "1ae4674949cfead101f6e8d8": {
-                    "id": "f49be9fe47ee91b70fd12a14[fileurl]",
-                    "name": "FileURL",
-                    "value": {
-                        "id": "f49be9fe47ee91b70fd12a14[fileurl]",
-                        "name": "FileURL",
-                        "value": ""
-                    }
-                },
-                "1b9710d3ac9dbdfd3b46110a": {
-                    "id": "f49be9fe47ee91b70fd12a14[errormessage]",
-                    "name": "ErrorMessage",
-                    "value": {
-                        "id": "f49be9fe47ee91b70fd12a14[errormessage]",
-                        "name": "ErrorMessage",
-                        "value": ""
-                    }
-                },
-                "90cd8b63ad44500486ddbb02": {
-                    "id": "f49be9fe47ee91b70fd12a14[message]",
-                    "name": "Message",
-                    "value": {
-                        "id": "f49be9fe47ee91b70fd12a14[message]",
-                        "name": "Message",
-                        "value": "{\"editor-f49be9fe47ee91b70fd12a14message-1\":\"Okay, I adjusted the parameters.\"}"
-                    }
-                },
-                "02f10f2ddc5ad49fb427d09d": {
-                    "id": "f49be9fe47ee91b70fd12a14[rateable]",
-                    "name": "Rateable",
-                    "value": {
-                        "id": "f49be9fe47ee91b70fd12a14[rateable]",
-                        "name": "Rateable",
-                        "value": false
-                    }
-                }
-            }
-        },
-        "5b3a5de5738a231a638716be": {
-            "label": {
-                "id": "5b3a5de5738a231a638716be[label]",
-                "name": "Label",
-                "value": {
-                    "id": "5b3a5de5738a231a638716be[label]",
-                    "name": "Label",
-                    "value": ""
-                }
-            },
-            "left": 3498.447052001953,
-            "top": 4924.324619293213,
-            "width": 50,
-            "height": 50,
-            "zIndex": 16030,
-            "type": "Incoming Message",
-            "attributes": {
-                "646c1466c4bf34e8267c4f27": {
-                    "id": "5b3a5de5738a231a638716be[type]",
-                    "name": "Type",
-                    "value": {
-                        "id": "5b3a5de5738a231a638716be[type]",
-                        "name": "Type",
-                        "value": "Text Message"
-                    },
-                    "option": "Text Message"
-                },
-                "5aefe0547e628a6019d3f613": {
-                    "id": "5b3a5de5738a231a638716be[followup message type]",
-                    "name": "Followup Message Type",
-                    "value": {
-                        "id": "5b3a5de5738a231a638716be[followup message type]",
-                        "name": "Followup Message Type",
-                        "value": "text"
-                    },
-                    "option": "text"
-                },
-                "869849f65db9be737e99bd24": {
-                    "id": "5b3a5de5738a231a638716be[intent keyword]",
-                    "name": "Intent Keyword",
-                    "value": {
-                        "id": "5b3a5de5738a231a638716be[intent keyword]",
-                        "name": "Intent Keyword",
-                        "value": "noAdjustments"
-                    }
-                },
-                "e7d374a1e2d32c5e67bc68cc": {
-                    "id": "5b3a5de5738a231a638716be[intent label]",
-                    "name": "Intent Label",
-                    "value": {
-                        "id": "5b3a5de5738a231a638716be[intent label]",
-                        "name": "Intent Label",
-                        "value": ""
-                    }
-                },
-                "3e8bfec67da28c354a969b46": {
-                    "id": "5b3a5de5738a231a638716be[nlu id]",
-                    "name": "NLU ID",
-                    "value": {
-                        "id": "5b3a5de5738a231a638716be[nlu id]",
-                        "name": "NLU ID",
-                        "value": "basic-knowledge"
-                    }
-                },
-                "8f8bee572ff26bedbfb46783": {
-                    "id": "5b3a5de5738a231a638716be[isfile]",
-                    "name": "IsFile",
-                    "value": {
-                        "id": "5b3a5de5738a231a638716be[isfile]",
-                        "name": "IsFile",
-                        "value": false
-                    }
-                },
-                "1ae4674949cfead101f6e8d8": {
-                    "id": "5b3a5de5738a231a638716be[fileurl]",
-                    "name": "FileURL",
-                    "value": {
-                        "id": "5b3a5de5738a231a638716be[fileurl]",
-                        "name": "FileURL",
-                        "value": ""
-                    }
-                },
-                "1b9710d3ac9dbdfd3b46110a": {
-                    "id": "5b3a5de5738a231a638716be[errormessage]",
-                    "name": "ErrorMessage",
-                    "value": {
-                        "id": "5b3a5de5738a231a638716be[errormessage]",
-                        "name": "ErrorMessage",
-                        "value": ""
-                    }
-                },
-                "90cd8b63ad44500486ddbb02": {
-                    "id": "5b3a5de5738a231a638716be[message]",
-                    "name": "Message",
-                    "value": {
-                        "id": "5b3a5de5738a231a638716be[message]",
-                        "name": "Message",
-                        "value": "{}"
-                    }
-                },
-                "02f10f2ddc5ad49fb427d09d": {
-                    "id": "5b3a5de5738a231a638716be[rateable]",
-                    "name": "Rateable",
-                    "value": {
-                        "id": "5b3a5de5738a231a638716be[rateable]",
-                        "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -770,8 +548,8 @@
                     "value": ""
                 }
             },
-            "left": 2580.596069335937,
-            "top": 4821.415506998697,
+            "left": 2824.596069335937,
+            "top": 5372.415506998697,
             "width": 50,
             "height": 50,
             "zIndex": 16031,
@@ -821,7 +599,7 @@
                     "value": {
                         "id": "61b2591c8d80bb5259e54ae5[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -830,7 +608,7 @@
                     "value": {
                         "id": "61b2591c8d80bb5259e54ae5[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -866,7 +644,7 @@
                     "value": {
                         "id": "61b2591c8d80bb5259e54ae5[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -881,8 +659,8 @@
                     "value": ""
                 }
             },
-            "left": 3074.92940266927,
-            "top": 4874.415506998697,
+            "left": 3725.92940266927,
+            "top": 5377.415506998697,
             "width": 50,
             "height": 50,
             "zIndex": 16032,
@@ -914,7 +692,7 @@
                     "value": {
                         "id": "30578ff0191dd59896bb973d[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "adjustTimeRange"
+                        "value": "adjustTimeRange,yearRangeIntent"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -932,7 +710,7 @@
                     "value": {
                         "id": "30578ff0191dd59896bb973d[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -941,7 +719,7 @@
                     "value": {
                         "id": "30578ff0191dd59896bb973d[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -977,7 +755,7 @@
                     "value": {
                         "id": "30578ff0191dd59896bb973d[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -992,8 +770,8 @@
                     "value": ""
                 }
             },
-            "left": 2674.839390345982,
-            "top": 5283.328604561942,
+            "left": 3276.839390345982,
+            "top": 5879.328604561942,
             "width": 50,
             "height": 50,
             "zIndex": 16034,
@@ -1025,7 +803,7 @@
                     "value": {
                         "id": "e89459287782fe85538aa871[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "adjustDistance,adjustTimeRange,noAdjustments"
+                        "value": "adjustDistance,adjustTimeRange,yearRangeIntent,no"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -1043,7 +821,7 @@
                     "value": {
                         "id": "e89459287782fe85538aa871[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -1052,7 +830,7 @@
                     "value": {
                         "id": "e89459287782fe85538aa871[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -1088,7 +866,7 @@
                     "value": {
                         "id": "e89459287782fe85538aa871[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -1103,8 +881,8 @@
                     "value": ""
                 }
             },
-            "left": 2349.0057508680557,
-            "top": 4784.450900607639,
+            "left": 2827.0057508680557,
+            "top": 5871.450900607639,
             "width": 50,
             "height": 50,
             "zIndex": 16035,
@@ -1136,7 +914,7 @@
                     "value": {
                         "id": "40bf9153e554a2f76249c1cc[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "yes"
+                        "value": "confirm"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -1154,7 +932,7 @@
                     "value": {
                         "id": "40bf9153e554a2f76249c1cc[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -1163,7 +941,7 @@
                     "value": {
                         "id": "40bf9153e554a2f76249c1cc[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -1199,7 +977,7 @@
                     "value": {
                         "id": "40bf9153e554a2f76249c1cc[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -1214,8 +992,8 @@
                     "value": ""
                 }
             },
-            "left": 2809.129638671875,
-            "top": 4923.388454861111,
+            "left": 3724.129638671875,
+            "top": 5874.388454861111,
             "width": 50,
             "height": 50,
             "zIndex": 16036,
@@ -1247,7 +1025,7 @@
                     "value": {
                         "id": "ccf25801edf73be7fccdaee1[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "yes"
+                        "value": "confirm"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -1265,7 +1043,7 @@
                     "value": {
                         "id": "ccf25801edf73be7fccdaee1[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -1274,7 +1052,7 @@
                     "value": {
                         "id": "ccf25801edf73be7fccdaee1[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -1310,7 +1088,7 @@
                     "value": {
                         "id": "ccf25801edf73be7fccdaee1[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -1325,8 +1103,8 @@
                     "value": ""
                 }
             },
-            "left": 3896.021647135416,
-            "top": 5290.386489868163,
+            "left": 3874.021647135416,
+            "top": 6180.386489868163,
             "width": 50,
             "height": 50,
             "zIndex": 16037,
@@ -1376,7 +1154,7 @@
                     "value": {
                         "id": "8767083ea11649726642fe3c[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -1385,7 +1163,7 @@
                     "value": {
                         "id": "8767083ea11649726642fe3c[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -1421,7 +1199,7 @@
                     "value": {
                         "id": "8767083ea11649726642fe3c[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -1487,7 +1265,7 @@
                     "value": {
                         "id": "951ed0031d0933e06776922d[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -1496,7 +1274,7 @@
                     "value": {
                         "id": "951ed0031d0933e06776922d[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -1523,7 +1301,7 @@
                     "value": {
                         "id": "951ed0031d0933e06776922d[message]",
                         "name": "Message",
-                        "value": "{\"editor-951ed0031d0933e06776922dmessage-1\":\"Very well. Which parameters do you want to adjust?\",\"editor-951ed0031d0933e06776922dmessage-2\":\"Sure, what parameter do you want adjusted?\"}"
+                        "value": "{\"editor-951ed0031d0933e06776922dmessage-1\":\"Very well. Which parameters (distance, time range, both) do you want to adjust?\",\"editor-951ed0031d0933e06776922dmessage-2\":\"Sure, what parameters (distance, time range, both)  do you want to have adjusted?\"}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -1532,7 +1310,7 @@
                     "value": {
                         "id": "951ed0031d0933e06776922d[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -1547,8 +1325,8 @@
                     "value": ""
                 }
             },
-            "left": 4734.02880859375,
-            "top": 4292.150009155273,
+            "left": 4738.02880859375,
+            "top": 4642.150009155273,
             "width": 50,
             "height": 50,
             "zIndex": 16041,
@@ -1580,7 +1358,7 @@
                     "value": {
                         "id": "1b4963b57a4c0d4ec8d3cc13[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "repeatWithDistance,adjustDistance"
+                        "value": "adjustDistance"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -1598,7 +1376,7 @@
                     "value": {
                         "id": "1b4963b57a4c0d4ec8d3cc13[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -1607,7 +1385,7 @@
                     "value": {
                         "id": "1b4963b57a4c0d4ec8d3cc13[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -1643,7 +1421,7 @@
                     "value": {
                         "id": "1b4963b57a4c0d4ec8d3cc13[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -1658,8 +1436,8 @@
                     "value": ""
                 }
             },
-            "left": 4737.02880859375,
-            "top": 3434.9000091552734,
+            "left": 4733.02880859375,
+            "top": 3127.9000091552734,
             "width": 50,
             "height": 50,
             "zIndex": 16042,
@@ -1691,7 +1469,7 @@
                     "value": {
                         "id": "33d66bf0b9eefc86042f1ce5[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "repeatWithTimeRange,adjustTimeRange"
+                        "value": "adjustTimeRange,yearRangeIntent"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -1709,7 +1487,7 @@
                     "value": {
                         "id": "33d66bf0b9eefc86042f1ce5[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -1718,7 +1496,7 @@
                     "value": {
                         "id": "33d66bf0b9eefc86042f1ce5[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -1754,7 +1532,7 @@
                     "value": {
                         "id": "33d66bf0b9eefc86042f1ce5[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -1769,8 +1547,8 @@
                     "value": ""
                 }
             },
-            "left": 6005.8470458984375,
-            "top": 3839.8544158935547,
+            "left": 5990.8470458984375,
+            "top": 3857.8544158935547,
             "width": 50,
             "height": 50,
             "zIndex": 16044,
@@ -1782,9 +1560,9 @@
                     "value": {
                         "id": "236427ff781b4cf766ec75f5[action type]",
                         "name": "Action Type",
-                        "value": "SendMessage"
+                        "value": "OpenAPI"
                     },
-                    "option": "SendMessage"
+                    "option": "OpenAPI"
                 },
                 "c436dc0e764a63371820e857": {
                     "id": "236427ff781b4cf766ec75f5[function name]",
@@ -1801,7 +1579,7 @@
                     "value": {
                         "id": "236427ff781b4cf766ec75f5[service alias]",
                         "name": "Service Alias",
-                        "value": "http://host.docker.internal:5999"
+                        "value": "http://tatdd-handler-service"
                     }
                 }
             }
@@ -1816,8 +1594,8 @@
                     "value": ""
                 }
             },
-            "left": 4914.421142578125,
-            "top": 4040.5104370117188,
+            "left": 4928.421142578125,
+            "top": 4270.510437011719,
             "width": 50,
             "height": 50,
             "zIndex": 16045,
@@ -1867,7 +1645,7 @@
                     "value": {
                         "id": "78182b0893fdece9a30be28a[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -1876,7 +1654,7 @@
                     "value": {
                         "id": "78182b0893fdece9a30be28a[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -1903,7 +1681,7 @@
                     "value": {
                         "id": "78182b0893fdece9a30be28a[message]",
                         "name": "Message",
-                        "value": "{\"editor-78182b0893fdece9a30be28amessage-1\":\"Okay. Tell me what distance you would like to use.\"}"
+                        "value": "{\"editor-78182b0893fdece9a30be28amessage-1\":\"Okay. Tell me what distance you would like to use.\",\"editor-78182b0893fdece9a30be28amessage-2\":\"Alright, which distance shall I use for the next analysis?\"}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -1912,7 +1690,7 @@
                     "value": {
                         "id": "78182b0893fdece9a30be28a[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -1927,8 +1705,8 @@
                     "value": ""
                 }
             },
-            "left": 4909.511474609375,
-            "top": 3640.2377319335938,
+            "left": 4927.511474609375,
+            "top": 3497.2377319335938,
             "width": 50,
             "height": 50,
             "zIndex": 16046,
@@ -1978,7 +1756,7 @@
                     "value": {
                         "id": "d0cfd1febfb7beebaed06bc7[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -1987,7 +1765,7 @@
                     "value": {
                         "id": "d0cfd1febfb7beebaed06bc7[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -2014,7 +1792,7 @@
                     "value": {
                         "id": "d0cfd1febfb7beebaed06bc7[message]",
                         "name": "Message",
-                        "value": "{}"
+                        "value": "{\"editor-d0cfd1febfb7beebaed06bc7message-1\":\"Okay, to what year range do you want to adjust it?\",\"editor-d0cfd1febfb7beebaed06bc7message-2\":\"Got you, what year range should I use?\"}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -2023,7 +1801,7 @@
                     "value": {
                         "id": "d0cfd1febfb7beebaed06bc7[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -2038,8 +1816,8 @@
                     "value": ""
                 }
             },
-            "left": 4734.784423828125,
-            "top": 4851.32861328125,
+            "left": 6007.784423828125,
+            "top": 4648.32861328125,
             "width": 50,
             "height": 50,
             "zIndex": 16047,
@@ -2071,7 +1849,7 @@
                     "value": {
                         "id": "4ba37447a3cb88883c893d53[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "repeatWithDistance+repeatWithTimeRange,adjustTimeRange"
+                        "value": "adjustTimeRange,yearRangeIntent"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -2089,7 +1867,7 @@
                     "value": {
                         "id": "4ba37447a3cb88883c893d53[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -2098,7 +1876,7 @@
                     "value": {
                         "id": "4ba37447a3cb88883c893d53[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -2134,7 +1912,7 @@
                     "value": {
                         "id": "4ba37447a3cb88883c893d53[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -2149,8 +1927,8 @@
                     "value": ""
                 }
             },
-            "left": 5677.227905273437,
-            "top": 3853.361002604166,
+            "left": 5685.227905273437,
+            "top": 3849.361002604166,
             "width": 50,
             "height": 50,
             "zIndex": 16048,
@@ -2182,7 +1960,7 @@
                     "value": {
                         "id": "e8d5b51643f39fc8af2c0005[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "no"
+                        "value": "adjustTimeRange,yearRangeIntent,no"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -2200,7 +1978,7 @@
                     "value": {
                         "id": "e8d5b51643f39fc8af2c0005[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -2209,7 +1987,7 @@
                     "value": {
                         "id": "e8d5b51643f39fc8af2c0005[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -2245,7 +2023,7 @@
                     "value": {
                         "id": "e8d5b51643f39fc8af2c0005[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -2260,8 +2038,8 @@
                     "value": ""
                 }
             },
-            "left": 4896.015747070312,
-            "top": 4531.391194661458,
+            "left": 5359.015747070312,
+            "top": 4420.391194661458,
             "width": 50,
             "height": 50,
             "zIndex": 16049,
@@ -2293,7 +2071,7 @@
                     "value": {
                         "id": "15bc26905c02b76d14d57165[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "yes"
+                        "value": "confirm"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -2311,7 +2089,7 @@
                     "value": {
                         "id": "15bc26905c02b76d14d57165[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -2320,7 +2098,7 @@
                     "value": {
                         "id": "15bc26905c02b76d14d57165[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -2356,7 +2134,7 @@
                     "value": {
                         "id": "15bc26905c02b76d14d57165[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -2371,8 +2149,8 @@
                     "value": ""
                 }
             },
-            "left": 4744.167114257812,
-            "top": 3099.027465820312,
+            "left": 5993.167114257812,
+            "top": 3108.027465820312,
             "width": 50,
             "height": 50,
             "zIndex": 16050,
@@ -2422,7 +2200,7 @@
                     "value": {
                         "id": "a2e97cc6fc6aeb7350bbb36c[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -2431,7 +2209,7 @@
                     "value": {
                         "id": "a2e97cc6fc6aeb7350bbb36c[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -2467,7 +2245,7 @@
                     "value": {
                         "id": "a2e97cc6fc6aeb7350bbb36c[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -2482,8 +2260,8 @@
                     "value": ""
                 }
             },
-            "left": 4883.652018229166,
-            "top": 3263.603352864583,
+            "left": 5355.652018229166,
+            "top": 3333.603352864583,
             "width": 50,
             "height": 50,
             "zIndex": 16051,
@@ -2515,7 +2293,7 @@
                     "value": {
                         "id": "bb63441c6625568cafe3fa35[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "yes"
+                        "value": "confirm"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -2533,7 +2311,7 @@
                     "value": {
                         "id": "bb63441c6625568cafe3fa35[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -2542,7 +2320,7 @@
                     "value": {
                         "id": "bb63441c6625568cafe3fa35[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -2578,7 +2356,7 @@
                     "value": {
                         "id": "bb63441c6625568cafe3fa35[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -2593,8 +2371,8 @@
                     "value": ""
                 }
             },
-            "left": 3878.0781249999995,
-            "top": 3996.810607910156,
+            "left": 3873.0781249999995,
+            "top": 2830.810607910156,
             "width": 50,
             "height": 50,
             "zIndex": 16052,
@@ -2644,7 +2422,7 @@
                     "value": {
                         "id": "8ebd910273f635aaa7ce3bc5[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -2653,7 +2431,7 @@
                     "value": {
                         "id": "8ebd910273f635aaa7ce3bc5[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -2689,7 +2467,7 @@
                     "value": {
                         "id": "8ebd910273f635aaa7ce3bc5[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -2704,8 +2482,8 @@
                     "value": ""
                 }
             },
-            "left": 3667.7019348144518,
-            "top": 4160.469146728514,
+            "left": 3488.7019348144518,
+            "top": 4102.469146728514,
             "width": 50,
             "height": 50,
             "zIndex": 16053,
@@ -2755,7 +2533,7 @@
                     "value": {
                         "id": "b5a6c354541bc6c6e93b4383[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -2764,7 +2542,7 @@
                     "value": {
                         "id": "b5a6c354541bc6c6e93b4383[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -2800,7 +2578,7 @@
                     "value": {
                         "id": "b5a6c354541bc6c6e93b4383[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -2815,8 +2593,8 @@
                     "value": ""
                 }
             },
-            "left": 3478.701934814452,
-            "top": 4013.9691467285147,
+            "left": 3122.701934814452,
+            "top": 3927.9691467285147,
             "width": 50,
             "height": 50,
             "zIndex": 16054,
@@ -2866,7 +2644,7 @@
                     "value": {
                         "id": "bdb99f3c42f3c27725ca171e[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -2875,7 +2653,7 @@
                     "value": {
                         "id": "bdb99f3c42f3c27725ca171e[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -2902,7 +2680,7 @@
                     "value": {
                         "id": "bdb99f3c42f3c27725ca171e[message]",
                         "name": "Message",
-                        "value": "{\"editor-bdb99f3c42f3c27725ca171emessage-1\":\"Alright, I will search for citation recommendations for the following topics:\\n[topics]\\n\\nDo you want to adjust the number of citations a publication should at least have or the time frame of the search? If yes, simply tell me what number of citations and/or year range to use. Otherwise say \\\"no\\\" or \\\"start\\\".\"}"
+                        "value": "{\"editor-bdb99f3c42f3c27725ca171emessage-1\":\"Alright, I will search for citation recommendations for the following topics:\\n[topics]\\n\\nWhat parameters (min citation count, time range, both) do you want to adjust? If you want to use the default settings (0.11, 1980-2022), simply say \\\"no\\\".\"}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -2911,7 +2689,7 @@
                     "value": {
                         "id": "bdb99f3c42f3c27725ca171e[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -2926,8 +2704,8 @@
                     "value": ""
                 }
             },
-            "left": 2565.2019348144518,
-            "top": 3873.4691467285147,
+            "left": 2726.2019348144518,
+            "top": 3472.4691467285147,
             "width": 50,
             "height": 50,
             "zIndex": 16055,
@@ -2959,7 +2737,7 @@
                     "value": {
                         "id": "5144fc65e3fbc4d29df3b189[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "adjustTimeRange"
+                        "value": "adjustTimeRange,yearRangeIntent"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -2977,7 +2755,7 @@
                     "value": {
                         "id": "5144fc65e3fbc4d29df3b189[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -2986,7 +2764,7 @@
                     "value": {
                         "id": "5144fc65e3fbc4d29df3b189[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -3022,7 +2800,7 @@
                     "value": {
                         "id": "5144fc65e3fbc4d29df3b189[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -3037,8 +2815,8 @@
                     "value": ""
                 }
             },
-            "left": 3478.686767578124,
-            "top": 3263.9281005859366,
+            "left": 3119.686767578124,
+            "top": 2824.9281005859366,
             "width": 50,
             "height": 50,
             "zIndex": 16057,
@@ -3069,7 +2847,7 @@
                     "value": {
                         "id": "c040bc90c5aa48749cd41bd9[service alias]",
                         "name": "Service Alias",
-                        "value": "http://host.docker.internal:5999"
+                        "value": "http://tatdd-handler-service"
                     }
                 }
             }
@@ -3084,8 +2862,8 @@
                     "value": ""
                 }
             },
-            "left": 3219.845947265624,
-            "top": 3519.4481201171866,
+            "left": 3523.845947265624,
+            "top": 3476.4481201171866,
             "width": 50,
             "height": 50,
             "zIndex": 16058,
@@ -3135,7 +2913,7 @@
                     "value": {
                         "id": "cd56fcbc6e643206293e0fca[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -3144,7 +2922,7 @@
                     "value": {
                         "id": "cd56fcbc6e643206293e0fca[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -3180,7 +2958,7 @@
                     "value": {
                         "id": "cd56fcbc6e643206293e0fca[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -3195,8 +2973,8 @@
                     "value": ""
                 }
             },
-            "left": 2799.845947265624,
-            "top": 3731.4481201171866,
+            "left": 2724.845947265624,
+            "top": 3028.4481201171866,
             "width": 50,
             "height": 50,
             "zIndex": 16059,
@@ -3228,7 +3006,7 @@
                     "value": {
                         "id": "2729af761ae508653859a679[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "yes"
+                        "value": "confirm"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -3246,7 +3024,7 @@
                     "value": {
                         "id": "2729af761ae508653859a679[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -3255,7 +3033,7 @@
                     "value": {
                         "id": "2729af761ae508653859a679[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -3291,118 +3069,7 @@
                     "value": {
                         "id": "2729af761ae508653859a679[rateable]",
                         "name": "Rateable",
-                        "value": false
-                    }
-                }
-            }
-        },
-        "4cefb4a51e6959889ede2302": {
-            "label": {
-                "id": "4cefb4a51e6959889ede2302[label]",
-                "name": "Label",
-                "value": {
-                    "id": "4cefb4a51e6959889ede2302[label]",
-                    "name": "Label",
-                    "value": ""
-                }
-            },
-            "left": 3472.845947265624,
-            "top": 3680.4481201171866,
-            "width": 50,
-            "height": 50,
-            "zIndex": 16060,
-            "type": "Incoming Message",
-            "attributes": {
-                "646c1466c4bf34e8267c4f27": {
-                    "id": "4cefb4a51e6959889ede2302[type]",
-                    "name": "Type",
-                    "value": {
-                        "id": "4cefb4a51e6959889ede2302[type]",
-                        "name": "Type",
-                        "value": "Text Message"
-                    },
-                    "option": "Text Message"
-                },
-                "5aefe0547e628a6019d3f613": {
-                    "id": "4cefb4a51e6959889ede2302[followup message type]",
-                    "name": "Followup Message Type",
-                    "value": {
-                        "id": "4cefb4a51e6959889ede2302[followup message type]",
-                        "name": "Followup Message Type",
-                        "value": "text"
-                    },
-                    "option": "text"
-                },
-                "869849f65db9be737e99bd24": {
-                    "id": "4cefb4a51e6959889ede2302[intent keyword]",
-                    "name": "Intent Keyword",
-                    "value": {
-                        "id": "4cefb4a51e6959889ede2302[intent keyword]",
-                        "name": "Intent Keyword",
-                        "value": "adjustTimeRange+adjustMinCitations"
-                    }
-                },
-                "e7d374a1e2d32c5e67bc68cc": {
-                    "id": "4cefb4a51e6959889ede2302[intent label]",
-                    "name": "Intent Label",
-                    "value": {
-                        "id": "4cefb4a51e6959889ede2302[intent label]",
-                        "name": "Intent Label",
-                        "value": ""
-                    }
-                },
-                "3e8bfec67da28c354a969b46": {
-                    "id": "4cefb4a51e6959889ede2302[nlu id]",
-                    "name": "NLU ID",
-                    "value": {
-                        "id": "4cefb4a51e6959889ede2302[nlu id]",
-                        "name": "NLU ID",
-                        "value": "basic-knowledge"
-                    }
-                },
-                "8f8bee572ff26bedbfb46783": {
-                    "id": "4cefb4a51e6959889ede2302[isfile]",
-                    "name": "IsFile",
-                    "value": {
-                        "id": "4cefb4a51e6959889ede2302[isfile]",
-                        "name": "IsFile",
-                        "value": false
-                    }
-                },
-                "1ae4674949cfead101f6e8d8": {
-                    "id": "4cefb4a51e6959889ede2302[fileurl]",
-                    "name": "FileURL",
-                    "value": {
-                        "id": "4cefb4a51e6959889ede2302[fileurl]",
-                        "name": "FileURL",
-                        "value": ""
-                    }
-                },
-                "1b9710d3ac9dbdfd3b46110a": {
-                    "id": "4cefb4a51e6959889ede2302[errormessage]",
-                    "name": "ErrorMessage",
-                    "value": {
-                        "id": "4cefb4a51e6959889ede2302[errormessage]",
-                        "name": "ErrorMessage",
-                        "value": ""
-                    }
-                },
-                "90cd8b63ad44500486ddbb02": {
-                    "id": "4cefb4a51e6959889ede2302[message]",
-                    "name": "Message",
-                    "value": {
-                        "id": "4cefb4a51e6959889ede2302[message]",
-                        "name": "Message",
-                        "value": "{}"
-                    }
-                },
-                "02f10f2ddc5ad49fb427d09d": {
-                    "id": "4cefb4a51e6959889ede2302[rateable]",
-                    "name": "Rateable",
-                    "value": {
-                        "id": "4cefb4a51e6959889ede2302[rateable]",
-                        "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -3417,8 +3084,8 @@
                     "value": ""
                 }
             },
-            "left": 2714.6640624999995,
-            "top": 3296.5389404296866,
+            "left": 3122.6640624999995,
+            "top": 3026.5389404296866,
             "width": 50,
             "height": 50,
             "zIndex": 16061,
@@ -3450,7 +3117,7 @@
                     "value": {
                         "id": "5dd0bc97d17be42bd5cb8381[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "noAdjustments,adjustTimeRange"
+                        "value": "no,adjustTimeRange,yearRangeIntent"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -3468,7 +3135,7 @@
                     "value": {
                         "id": "5dd0bc97d17be42bd5cb8381[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -3477,7 +3144,7 @@
                     "value": {
                         "id": "5dd0bc97d17be42bd5cb8381[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -3513,7 +3180,7 @@
                     "value": {
                         "id": "5dd0bc97d17be42bd5cb8381[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -3528,10 +3195,10 @@
                     "value": ""
                 }
             },
-            "left": 3336.6903076171866,
-            "top": 3363.4932861328116,
-            "width": 50,
-            "height": 50,
+            "left": 3524.6903076171866,
+            "top": 3023.4932861328116,
+            "width": 55.454141035156255,
+            "height": 55.46878,
             "zIndex": 16062,
             "type": "Incoming Message",
             "attributes": {
@@ -3561,7 +3228,7 @@
                     "value": {
                         "id": "50255f6dd5633323d45928c5[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "yes"
+                        "value": "confirm"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -3579,7 +3246,7 @@
                     "value": {
                         "id": "50255f6dd5633323d45928c5[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -3588,7 +3255,7 @@
                     "value": {
                         "id": "50255f6dd5633323d45928c5[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -3624,7 +3291,7 @@
                     "value": {
                         "id": "50255f6dd5633323d45928c5[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -3639,8 +3306,8 @@
                     "value": ""
                 }
             },
-            "left": 4048.5137329101544,
-            "top": 3792.9612121582018,
+            "left": 3874.5137329101544,
+            "top": 2673.9612121582018,
             "width": 50,
             "height": 50,
             "zIndex": 16065,
@@ -3667,8 +3334,8 @@
                     "value": ""
                 }
             },
-            "left": 2327.536499023437,
-            "top": 3871.849121093749,
+            "left": 1830.536499023437,
+            "top": 3977.849121093749,
             "width": 50,
             "height": 50,
             "zIndex": 16066,
@@ -3718,7 +3385,7 @@
                     "value": {
                         "id": "9443c1d786a9dee21ad4d084[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -3727,7 +3394,7 @@
                     "value": {
                         "id": "9443c1d786a9dee21ad4d084[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -3763,7 +3430,7 @@
                     "value": {
                         "id": "9443c1d786a9dee21ad4d084[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -3778,8 +3445,8 @@
                     "value": ""
                 }
             },
-            "left": 2268.1153564453125,
-            "top": 3970.1629638671875,
+            "left": 1819.1153564453125,
+            "top": 4271.1629638671875,
             "width": 50,
             "height": 50,
             "zIndex": 16067,
@@ -3829,7 +3496,7 @@
                     "value": {
                         "id": "34ad4242b4a9e345f1832db4[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -3838,7 +3505,7 @@
                     "value": {
                         "id": "34ad4242b4a9e345f1832db4[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -3874,7 +3541,7 @@
                     "value": {
                         "id": "34ad4242b4a9e345f1832db4[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -3889,8 +3556,8 @@
                     "value": ""
                 }
             },
-            "left": 2082.593933105468,
-            "top": 4143.501716613768,
+            "left": 1822.5939331054678,
+            "top": 4129.501716613768,
             "width": 50,
             "height": 50,
             "zIndex": 16068,
@@ -3940,7 +3607,7 @@
                     "value": {
                         "id": "ab0ab6a79e53a30dc54e7248[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -3949,7 +3616,7 @@
                     "value": {
                         "id": "ab0ab6a79e53a30dc54e7248[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -3976,7 +3643,7 @@
                     "value": {
                         "id": "ab0ab6a79e53a30dc54e7248[message]",
                         "name": "Message",
-                        "value": "{\"editor-ab0ab6a79e53a30dc54e7248message-1\":\"I am a bot that can perform a trend analysis as well as provide you with citation recommendations for a single topic, combination of topics or a topic description of your choice. Besides giving you a quick overview of the results I found, I offer a separate WebUI with a more comprehensive view of analysis.\\n\\n#### Quick-Commands:\\nTo quickly start either one of the functionalities I provide, you can use the following shorthand commands:\\n- **!citrec topic1, topic2, \\\"topic3 with a , inside\\\"** -> Citation Recommendation\\n\\t- *!citrec machine learning, deep learning*\\n\\t- *!citrec Time-series based academic Trend and Downtrend detection*\\n- **!trends topic1, topic2, \\\"topic3 with a , inside\\\"** -> Trend analysis\\n\\t- *!trends blockchain*\\n\\t- *!trends p2p, network protocols*\\n\\n#### Conversations:\\nBesides the quick commands, I support a free text conversation flow. This mode offers the option to adjust search parameters for both functionalities. These flows can be initiated with:\\n\\n - Start a new trend analysis\\n - Recommend be papers to cite\"}"
+                        "value": "{\"editor-ab0ab6a79e53a30dc54e7248message-1\":\"I am a bot that can perform a trend analysis as well as provide you with citation recommendations for a single topic, combination of topics or a topic description of your choice. Besides giving you a quick overview of the results, I offer a separate WebUI with a more comprehensive view of your analysis.\\n\\nI support the following two quick commands\\n\\n• *!citrec topics (Citation recommendation)\\n• *!trends topics* (Trend analysis)\\n\\nExamples:\\n\\n• *!citrec blockchain*\\n• *!trends machine learning, deep vision*\\n\\nIn addition I support several conversation paths that allow you to customize the search parameters:\\n\\n• Start a new analysis\\n• Trend analysis\\n------\\n• Repeat the last analysis\\n• Repeat\\n------\\n• Start a new citation recommendation\\n• Start cit rec\\n\\nYou can also ask me what parameters you can adjust and how each one works.\"}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -3985,7 +3652,7 @@
                     "value": {
                         "id": "ab0ab6a79e53a30dc54e7248[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -4000,8 +3667,8 @@
                     "value": ""
                 }
             },
-            "left": 1914.593933105468,
-            "top": 4305.501716613768,
+            "left": 1732.593933105468,
+            "top": 4388.501716613768,
             "width": 50,
             "height": 50,
             "zIndex": 16069,
@@ -4051,7 +3718,7 @@
                     "value": {
                         "id": "c60b47ba822cec17240f4610[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -4060,7 +3727,7 @@
                     "value": {
                         "id": "c60b47ba822cec17240f4610[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -4087,7 +3754,7 @@
                     "value": {
                         "id": "c60b47ba822cec17240f4610[message]",
                         "name": "Message",
-                        "value": "{\"editor-c60b47ba822cec17240f4610message-1\":\"You can adjust the following parameters:\\nDistance (0-2)\\nStart and end year (1980-2022)\\nMin citation count (>=0)\"}"
+                        "value": "{\"editor-c60b47ba822cec17240f4610message-1\":\"You can adjust the following parameters:\\n• *Distance (0-2)*:  Defines how similar (cosine similarity) publications should be to your chosen topics to be considered for the analysis. *0* means the topics are identical and *2* means the topics are opposing each other.\\n• *Time range (1980-2022)*: Defines the time range the publications should be dating from (with a start and end year)\\n----------\\n• *Min citation count (>=0)*: Defines how often publications need to be cited to show up in citation recommendations\"}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4096,7 +3763,7 @@
                     "value": {
                         "id": "c60b47ba822cec17240f4610[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "true"
                     }
                 }
             }
@@ -4111,8 +3778,8 @@
                     "value": ""
                 }
             },
-            "left": 1857.593933105468,
-            "top": 4606.001716613768,
+            "left": 1744.593933105468,
+            "top": 4642.001716613768,
             "width": 50,
             "height": 50,
             "zIndex": 16070,
@@ -4162,7 +3829,7 @@
                     "value": {
                         "id": "b0684910d15bbad389769e80[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -4171,7 +3838,7 @@
                     "value": {
                         "id": "b0684910d15bbad389769e80[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -4198,7 +3865,7 @@
                     "value": {
                         "id": "b0684910d15bbad389769e80[message]",
                         "name": "Message",
-                        "value": "{\"editor-b0684910d15bbad389769e80message-1\":\"Adjusting the distance from 0 to 2 changes search precision. Zero distance yields highly similar publications to your query, while a distance of 2 returns broadly varied results. Fine-tune this to balance between relevance and diversity in your search outcomes. The default value for this is 0.11. Try to adjust this value in steps of +-0.01.\"}"
+                        "value": "{\"editor-b0684910d15bbad389769e80message-1\":\"The distance defines how similar (cosine similarity) publications should be to your chosen topics to be considered for the analysis. *0* means the topics are identical and *2* means the topics are opposing each other. Fine-tune this to balance between relevance and diversity in your search outcomes. The default value for this is 0.11. Try to adjust this value in steps of +-0.01, depending on the amount of publications found for your topic.\"}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4207,7 +3874,7 @@
                     "value": {
                         "id": "b0684910d15bbad389769e80[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
                     }
                 }
             }
@@ -4222,8 +3889,8 @@
                     "value": ""
                 }
             },
-            "left": 1794.5939331054678,
-            "top": 4449.001716613768,
+            "left": 1740.5939331054678,
+            "top": 4509.001716613768,
             "width": 50,
             "height": 50,
             "zIndex": 16071,
@@ -4255,7 +3922,7 @@
                     "value": {
                         "id": "606ea39b55ef6875c71c60fc[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": ""
+                        "value": "explainTopics"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -4273,7 +3940,7 @@
                     "value": {
                         "id": "606ea39b55ef6875c71c60fc[nlu id]",
                         "name": "NLU ID",
-                        "value": "basic-knowledge"
+                        "value": "trendbot-knowledge"
                     }
                 },
                 "8f8bee572ff26bedbfb46783": {
@@ -4282,7 +3949,7 @@
                     "value": {
                         "id": "606ea39b55ef6875c71c60fc[isfile]",
                         "name": "IsFile",
-                        "value": false
+                        "value": "false"
                     }
                 },
                 "1ae4674949cfead101f6e8d8": {
@@ -4309,7 +3976,7 @@
                     "value": {
                         "id": "606ea39b55ef6875c71c60fc[message]",
                         "name": "Message",
-                        "value": "{\"editor-606ea39b55ef6875c71c60fcmessage-1\":\"\"}"
+                        "value": "{\"editor-606ea39b55ef6875c71c60fcmessage-1\":\"The topic filter defines the topic you want to analyze. This can either be a single keyword, multiple keywords, a full text description or a combination of all. Multiple descriptions are separated with a comma (,). Full-text descriptions that contain a comma as part of their text need to be enclosed in quotes:\\n\\n• machine learning\\n• blockchain, bitcoin\\n• \\\"Time-series based, Academic Trend and Downtrend detection\\\"\\n\\nIt is important to understand the effects of using a list of topics instead of a single topic description. Let's take the concept of \\\"machine learning\\\" as an example. Suppose we were to list only the keywords and search for *machine* and *learning*. In this case, both individual words would be searched for separately, but not the actual concept being searched for. Accordingly, we should search directly for *machine learning* without splitting the keywords.\"}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4318,7 +3985,1117 @@
                     "value": {
                         "id": "606ea39b55ef6875c71c60fc[rateable]",
                         "name": "Rateable",
-                        "value": false
+                        "value": "false"
+                    }
+                }
+            }
+        },
+        "9bf105ed5e24dc0514dd58a8": {
+            "label": {
+                "id": "9bf105ed5e24dc0514dd58a8[label]",
+                "name": "Label",
+                "value": {
+                    "id": "9bf105ed5e24dc0514dd58a8[label]",
+                    "name": "Label",
+                    "value": ""
+                }
+            },
+            "left": 5027.660505022321,
+            "top": 3842.8569379534038,
+            "width": 50,
+            "height": 50,
+            "zIndex": 16072,
+            "type": "Incoming Message",
+            "attributes": {
+                "646c1466c4bf34e8267c4f27": {
+                    "id": "9bf105ed5e24dc0514dd58a8[type]",
+                    "name": "Type",
+                    "value": {
+                        "id": "9bf105ed5e24dc0514dd58a8[type]",
+                        "name": "Type",
+                        "value": "Text Message"
+                    },
+                    "option": "Text Message"
+                },
+                "5aefe0547e628a6019d3f613": {
+                    "id": "9bf105ed5e24dc0514dd58a8[followup message type]",
+                    "name": "Followup Message Type",
+                    "value": {
+                        "id": "9bf105ed5e24dc0514dd58a8[followup message type]",
+                        "name": "Followup Message Type",
+                        "value": "text"
+                    },
+                    "option": "text"
+                },
+                "869849f65db9be737e99bd24": {
+                    "id": "9bf105ed5e24dc0514dd58a8[intent keyword]",
+                    "name": "Intent Keyword",
+                    "value": {
+                        "id": "9bf105ed5e24dc0514dd58a8[intent keyword]",
+                        "name": "Intent Keyword",
+                        "value": "both"
+                    }
+                },
+                "e7d374a1e2d32c5e67bc68cc": {
+                    "id": "9bf105ed5e24dc0514dd58a8[intent label]",
+                    "name": "Intent Label",
+                    "value": {
+                        "id": "9bf105ed5e24dc0514dd58a8[intent label]",
+                        "name": "Intent Label",
+                        "value": ""
+                    }
+                },
+                "3e8bfec67da28c354a969b46": {
+                    "id": "9bf105ed5e24dc0514dd58a8[nlu id]",
+                    "name": "NLU ID",
+                    "value": {
+                        "id": "9bf105ed5e24dc0514dd58a8[nlu id]",
+                        "name": "NLU ID",
+                        "value": "trendbot-knowledge"
+                    }
+                },
+                "8f8bee572ff26bedbfb46783": {
+                    "id": "9bf105ed5e24dc0514dd58a8[isfile]",
+                    "name": "IsFile",
+                    "value": {
+                        "id": "9bf105ed5e24dc0514dd58a8[isfile]",
+                        "name": "IsFile",
+                        "value": "false"
+                    }
+                },
+                "1ae4674949cfead101f6e8d8": {
+                    "id": "9bf105ed5e24dc0514dd58a8[fileurl]",
+                    "name": "FileURL",
+                    "value": {
+                        "id": "9bf105ed5e24dc0514dd58a8[fileurl]",
+                        "name": "FileURL",
+                        "value": ""
+                    }
+                },
+                "1b9710d3ac9dbdfd3b46110a": {
+                    "id": "9bf105ed5e24dc0514dd58a8[errormessage]",
+                    "name": "ErrorMessage",
+                    "value": {
+                        "id": "9bf105ed5e24dc0514dd58a8[errormessage]",
+                        "name": "ErrorMessage",
+                        "value": ""
+                    }
+                },
+                "90cd8b63ad44500486ddbb02": {
+                    "id": "9bf105ed5e24dc0514dd58a8[message]",
+                    "name": "Message",
+                    "value": {
+                        "id": "9bf105ed5e24dc0514dd58a8[message]",
+                        "name": "Message",
+                        "value": "{\"editor-9bf105ed5e24dc0514dd58a8message-1\":\"As you wish. What distance should I use for the next analysis?\",\"editor-9bf105ed5e24dc0514dd58a8message-2\":\"Alright, what distance should I use?\"}"
+                    }
+                },
+                "02f10f2ddc5ad49fb427d09d": {
+                    "id": "9bf105ed5e24dc0514dd58a8[rateable]",
+                    "name": "Rateable",
+                    "value": {
+                        "id": "9bf105ed5e24dc0514dd58a8[rateable]",
+                        "name": "Rateable",
+                        "value": "false"
+                    }
+                }
+            }
+        },
+        "a6b55cab10c7fed5e57edab6": {
+            "label": {
+                "id": "a6b55cab10c7fed5e57edab6[label]",
+                "name": "Label",
+                "value": {
+                    "id": "a6b55cab10c7fed5e57edab6[label]",
+                    "name": "Label",
+                    "value": ""
+                }
+            },
+            "left": 5314.660505022321,
+            "top": 3847.8439985002788,
+            "width": 50,
+            "height": 50,
+            "zIndex": 16073,
+            "type": "Incoming Message",
+            "attributes": {
+                "646c1466c4bf34e8267c4f27": {
+                    "id": "a6b55cab10c7fed5e57edab6[type]",
+                    "name": "Type",
+                    "value": {
+                        "id": "a6b55cab10c7fed5e57edab6[type]",
+                        "name": "Type",
+                        "value": "Text Message"
+                    },
+                    "option": "Text Message"
+                },
+                "5aefe0547e628a6019d3f613": {
+                    "id": "a6b55cab10c7fed5e57edab6[followup message type]",
+                    "name": "Followup Message Type",
+                    "value": {
+                        "id": "a6b55cab10c7fed5e57edab6[followup message type]",
+                        "name": "Followup Message Type",
+                        "value": "text"
+                    },
+                    "option": "text"
+                },
+                "869849f65db9be737e99bd24": {
+                    "id": "a6b55cab10c7fed5e57edab6[intent keyword]",
+                    "name": "Intent Keyword",
+                    "value": {
+                        "id": "a6b55cab10c7fed5e57edab6[intent keyword]",
+                        "name": "Intent Keyword",
+                        "value": "adjustDistance"
+                    }
+                },
+                "e7d374a1e2d32c5e67bc68cc": {
+                    "id": "a6b55cab10c7fed5e57edab6[intent label]",
+                    "name": "Intent Label",
+                    "value": {
+                        "id": "a6b55cab10c7fed5e57edab6[intent label]",
+                        "name": "Intent Label",
+                        "value": ""
+                    }
+                },
+                "3e8bfec67da28c354a969b46": {
+                    "id": "a6b55cab10c7fed5e57edab6[nlu id]",
+                    "name": "NLU ID",
+                    "value": {
+                        "id": "a6b55cab10c7fed5e57edab6[nlu id]",
+                        "name": "NLU ID",
+                        "value": "trendbot-knowledge"
+                    }
+                },
+                "8f8bee572ff26bedbfb46783": {
+                    "id": "a6b55cab10c7fed5e57edab6[isfile]",
+                    "name": "IsFile",
+                    "value": {
+                        "id": "a6b55cab10c7fed5e57edab6[isfile]",
+                        "name": "IsFile",
+                        "value": "false"
+                    }
+                },
+                "1ae4674949cfead101f6e8d8": {
+                    "id": "a6b55cab10c7fed5e57edab6[fileurl]",
+                    "name": "FileURL",
+                    "value": {
+                        "id": "a6b55cab10c7fed5e57edab6[fileurl]",
+                        "name": "FileURL",
+                        "value": ""
+                    }
+                },
+                "1b9710d3ac9dbdfd3b46110a": {
+                    "id": "a6b55cab10c7fed5e57edab6[errormessage]",
+                    "name": "ErrorMessage",
+                    "value": {
+                        "id": "a6b55cab10c7fed5e57edab6[errormessage]",
+                        "name": "ErrorMessage",
+                        "value": ""
+                    }
+                },
+                "90cd8b63ad44500486ddbb02": {
+                    "id": "a6b55cab10c7fed5e57edab6[message]",
+                    "name": "Message",
+                    "value": {
+                        "id": "a6b55cab10c7fed5e57edab6[message]",
+                        "name": "Message",
+                        "value": "{\"editor-a6b55cab10c7fed5e57edab6message-1\":\"Okay, I adjusted the distance to [distance]. What time range should I consider?\"}"
+                    }
+                },
+                "02f10f2ddc5ad49fb427d09d": {
+                    "id": "a6b55cab10c7fed5e57edab6[rateable]",
+                    "name": "Rateable",
+                    "value": {
+                        "id": "a6b55cab10c7fed5e57edab6[rateable]",
+                        "name": "Rateable",
+                        "value": "false"
+                    }
+                }
+            }
+        },
+        "aceca3120f29d6e7283ee65d": {
+            "label": {
+                "id": "aceca3120f29d6e7283ee65d[label]",
+                "name": "Label",
+                "value": {
+                    "id": "aceca3120f29d6e7283ee65d[label]",
+                    "name": "Label",
+                    "value": ""
+                }
+            },
+            "left": 2824.7258300781245,
+            "top": 4827.038864135741,
+            "width": 50,
+            "height": 50,
+            "zIndex": 16074,
+            "type": "Incoming Message",
+            "attributes": {
+                "646c1466c4bf34e8267c4f27": {
+                    "id": "aceca3120f29d6e7283ee65d[type]",
+                    "name": "Type",
+                    "value": {
+                        "id": "aceca3120f29d6e7283ee65d[type]",
+                        "name": "Type",
+                        "value": "Text Message"
+                    },
+                    "option": "Text Message"
+                },
+                "5aefe0547e628a6019d3f613": {
+                    "id": "aceca3120f29d6e7283ee65d[followup message type]",
+                    "name": "Followup Message Type",
+                    "value": {
+                        "id": "aceca3120f29d6e7283ee65d[followup message type]",
+                        "name": "Followup Message Type",
+                        "value": "text"
+                    },
+                    "option": "text"
+                },
+                "869849f65db9be737e99bd24": {
+                    "id": "aceca3120f29d6e7283ee65d[intent keyword]",
+                    "name": "Intent Keyword",
+                    "value": {
+                        "id": "aceca3120f29d6e7283ee65d[intent keyword]",
+                        "name": "Intent Keyword",
+                        "value": "distance"
+                    }
+                },
+                "e7d374a1e2d32c5e67bc68cc": {
+                    "id": "aceca3120f29d6e7283ee65d[intent label]",
+                    "name": "Intent Label",
+                    "value": {
+                        "id": "aceca3120f29d6e7283ee65d[intent label]",
+                        "name": "Intent Label",
+                        "value": ""
+                    }
+                },
+                "3e8bfec67da28c354a969b46": {
+                    "id": "aceca3120f29d6e7283ee65d[nlu id]",
+                    "name": "NLU ID",
+                    "value": {
+                        "id": "aceca3120f29d6e7283ee65d[nlu id]",
+                        "name": "NLU ID",
+                        "value": "trendbot-knowledge"
+                    }
+                },
+                "8f8bee572ff26bedbfb46783": {
+                    "id": "aceca3120f29d6e7283ee65d[isfile]",
+                    "name": "IsFile",
+                    "value": {
+                        "id": "aceca3120f29d6e7283ee65d[isfile]",
+                        "name": "IsFile",
+                        "value": "false"
+                    }
+                },
+                "1ae4674949cfead101f6e8d8": {
+                    "id": "aceca3120f29d6e7283ee65d[fileurl]",
+                    "name": "FileURL",
+                    "value": {
+                        "id": "aceca3120f29d6e7283ee65d[fileurl]",
+                        "name": "FileURL",
+                        "value": ""
+                    }
+                },
+                "1b9710d3ac9dbdfd3b46110a": {
+                    "id": "aceca3120f29d6e7283ee65d[errormessage]",
+                    "name": "ErrorMessage",
+                    "value": {
+                        "id": "aceca3120f29d6e7283ee65d[errormessage]",
+                        "name": "ErrorMessage",
+                        "value": ""
+                    }
+                },
+                "90cd8b63ad44500486ddbb02": {
+                    "id": "aceca3120f29d6e7283ee65d[message]",
+                    "name": "Message",
+                    "value": {
+                        "id": "aceca3120f29d6e7283ee65d[message]",
+                        "name": "Message",
+                        "value": "{\"editor-aceca3120f29d6e7283ee65dmessage-1\":\"Sure. What distance should I use for the request?\"}"
+                    }
+                },
+                "02f10f2ddc5ad49fb427d09d": {
+                    "id": "aceca3120f29d6e7283ee65d[rateable]",
+                    "name": "Rateable",
+                    "value": {
+                        "id": "aceca3120f29d6e7283ee65d[rateable]",
+                        "name": "Rateable",
+                        "value": "false"
+                    }
+                }
+            }
+        },
+        "b441d91edea3f88288a72b67": {
+            "label": {
+                "id": "b441d91edea3f88288a72b67[label]",
+                "name": "Label",
+                "value": {
+                    "id": "b441d91edea3f88288a72b67[label]",
+                    "name": "Label",
+                    "value": ""
+                }
+            },
+            "left": 3725.968180338541,
+            "top": 4825.827112833658,
+            "width": 50,
+            "height": 50,
+            "zIndex": 16075,
+            "type": "Incoming Message",
+            "attributes": {
+                "646c1466c4bf34e8267c4f27": {
+                    "id": "b441d91edea3f88288a72b67[type]",
+                    "name": "Type",
+                    "value": {
+                        "id": "b441d91edea3f88288a72b67[type]",
+                        "name": "Type",
+                        "value": "Text Message"
+                    },
+                    "option": "Text Message"
+                },
+                "5aefe0547e628a6019d3f613": {
+                    "id": "b441d91edea3f88288a72b67[followup message type]",
+                    "name": "Followup Message Type",
+                    "value": {
+                        "id": "b441d91edea3f88288a72b67[followup message type]",
+                        "name": "Followup Message Type",
+                        "value": "text"
+                    },
+                    "option": "text"
+                },
+                "869849f65db9be737e99bd24": {
+                    "id": "b441d91edea3f88288a72b67[intent keyword]",
+                    "name": "Intent Keyword",
+                    "value": {
+                        "id": "b441d91edea3f88288a72b67[intent keyword]",
+                        "name": "Intent Keyword",
+                        "value": "timeRange"
+                    }
+                },
+                "e7d374a1e2d32c5e67bc68cc": {
+                    "id": "b441d91edea3f88288a72b67[intent label]",
+                    "name": "Intent Label",
+                    "value": {
+                        "id": "b441d91edea3f88288a72b67[intent label]",
+                        "name": "Intent Label",
+                        "value": ""
+                    }
+                },
+                "3e8bfec67da28c354a969b46": {
+                    "id": "b441d91edea3f88288a72b67[nlu id]",
+                    "name": "NLU ID",
+                    "value": {
+                        "id": "b441d91edea3f88288a72b67[nlu id]",
+                        "name": "NLU ID",
+                        "value": "trendbot-knowledge"
+                    }
+                },
+                "8f8bee572ff26bedbfb46783": {
+                    "id": "b441d91edea3f88288a72b67[isfile]",
+                    "name": "IsFile",
+                    "value": {
+                        "id": "b441d91edea3f88288a72b67[isfile]",
+                        "name": "IsFile",
+                        "value": "false"
+                    }
+                },
+                "1ae4674949cfead101f6e8d8": {
+                    "id": "b441d91edea3f88288a72b67[fileurl]",
+                    "name": "FileURL",
+                    "value": {
+                        "id": "b441d91edea3f88288a72b67[fileurl]",
+                        "name": "FileURL",
+                        "value": ""
+                    }
+                },
+                "1b9710d3ac9dbdfd3b46110a": {
+                    "id": "b441d91edea3f88288a72b67[errormessage]",
+                    "name": "ErrorMessage",
+                    "value": {
+                        "id": "b441d91edea3f88288a72b67[errormessage]",
+                        "name": "ErrorMessage",
+                        "value": ""
+                    }
+                },
+                "90cd8b63ad44500486ddbb02": {
+                    "id": "b441d91edea3f88288a72b67[message]",
+                    "name": "Message",
+                    "value": {
+                        "id": "b441d91edea3f88288a72b67[message]",
+                        "name": "Message",
+                        "value": "{\"editor-b441d91edea3f88288a72b67message-1\":\"Okay, what time range should I use?\"}"
+                    }
+                },
+                "02f10f2ddc5ad49fb427d09d": {
+                    "id": "b441d91edea3f88288a72b67[rateable]",
+                    "name": "Rateable",
+                    "value": {
+                        "id": "b441d91edea3f88288a72b67[rateable]",
+                        "name": "Rateable",
+                        "value": "false"
+                    }
+                }
+            }
+        },
+        "294fe577448e64f621229cbd": {
+            "label": {
+                "id": "294fe577448e64f621229cbd[label]",
+                "name": "Label",
+                "value": {
+                    "id": "294fe577448e64f621229cbd[label]",
+                    "name": "Label",
+                    "value": ""
+                }
+            },
+            "left": 3412.768981933593,
+            "top": 5194.75894165039,
+            "width": 50,
+            "height": 50,
+            "zIndex": 16076,
+            "type": "Incoming Message",
+            "attributes": {
+                "646c1466c4bf34e8267c4f27": {
+                    "id": "294fe577448e64f621229cbd[type]",
+                    "name": "Type",
+                    "value": {
+                        "id": "294fe577448e64f621229cbd[type]",
+                        "name": "Type",
+                        "value": "Text Message"
+                    },
+                    "option": "Text Message"
+                },
+                "5aefe0547e628a6019d3f613": {
+                    "id": "294fe577448e64f621229cbd[followup message type]",
+                    "name": "Followup Message Type",
+                    "value": {
+                        "id": "294fe577448e64f621229cbd[followup message type]",
+                        "name": "Followup Message Type",
+                        "value": "text"
+                    },
+                    "option": "text"
+                },
+                "869849f65db9be737e99bd24": {
+                    "id": "294fe577448e64f621229cbd[intent keyword]",
+                    "name": "Intent Keyword",
+                    "value": {
+                        "id": "294fe577448e64f621229cbd[intent keyword]",
+                        "name": "Intent Keyword",
+                        "value": "both"
+                    }
+                },
+                "e7d374a1e2d32c5e67bc68cc": {
+                    "id": "294fe577448e64f621229cbd[intent label]",
+                    "name": "Intent Label",
+                    "value": {
+                        "id": "294fe577448e64f621229cbd[intent label]",
+                        "name": "Intent Label",
+                        "value": ""
+                    }
+                },
+                "3e8bfec67da28c354a969b46": {
+                    "id": "294fe577448e64f621229cbd[nlu id]",
+                    "name": "NLU ID",
+                    "value": {
+                        "id": "294fe577448e64f621229cbd[nlu id]",
+                        "name": "NLU ID",
+                        "value": "trendbot-knowledge"
+                    }
+                },
+                "8f8bee572ff26bedbfb46783": {
+                    "id": "294fe577448e64f621229cbd[isfile]",
+                    "name": "IsFile",
+                    "value": {
+                        "id": "294fe577448e64f621229cbd[isfile]",
+                        "name": "IsFile",
+                        "value": "false"
+                    }
+                },
+                "1ae4674949cfead101f6e8d8": {
+                    "id": "294fe577448e64f621229cbd[fileurl]",
+                    "name": "FileURL",
+                    "value": {
+                        "id": "294fe577448e64f621229cbd[fileurl]",
+                        "name": "FileURL",
+                        "value": ""
+                    }
+                },
+                "1b9710d3ac9dbdfd3b46110a": {
+                    "id": "294fe577448e64f621229cbd[errormessage]",
+                    "name": "ErrorMessage",
+                    "value": {
+                        "id": "294fe577448e64f621229cbd[errormessage]",
+                        "name": "ErrorMessage",
+                        "value": ""
+                    }
+                },
+                "90cd8b63ad44500486ddbb02": {
+                    "id": "294fe577448e64f621229cbd[message]",
+                    "name": "Message",
+                    "value": {
+                        "id": "294fe577448e64f621229cbd[message]",
+                        "name": "Message",
+                        "value": "{\"editor-294fe577448e64f621229cbdmessage-1\":\"Okay, both parameters. What distance do you want to use?\"}"
+                    }
+                },
+                "02f10f2ddc5ad49fb427d09d": {
+                    "id": "294fe577448e64f621229cbd[rateable]",
+                    "name": "Rateable",
+                    "value": {
+                        "id": "294fe577448e64f621229cbd[rateable]",
+                        "name": "Rateable",
+                        "value": "false"
+                    }
+                }
+            }
+        },
+        "3b881d8d3073216bf7895440": {
+            "label": {
+                "id": "3b881d8d3073216bf7895440[label]",
+                "name": "Label",
+                "value": {
+                    "id": "3b881d8d3073216bf7895440[label]",
+                    "name": "Label",
+                    "value": ""
+                }
+            },
+            "left": 3412.768981933593,
+            "top": 5500.75894165039,
+            "width": 50,
+            "height": 50,
+            "zIndex": 16077,
+            "type": "Incoming Message",
+            "attributes": {
+                "646c1466c4bf34e8267c4f27": {
+                    "id": "3b881d8d3073216bf7895440[type]",
+                    "name": "Type",
+                    "value": {
+                        "id": "3b881d8d3073216bf7895440[type]",
+                        "name": "Type",
+                        "value": "Text Message"
+                    },
+                    "option": "Text Message"
+                },
+                "5aefe0547e628a6019d3f613": {
+                    "id": "3b881d8d3073216bf7895440[followup message type]",
+                    "name": "Followup Message Type",
+                    "value": {
+                        "id": "3b881d8d3073216bf7895440[followup message type]",
+                        "name": "Followup Message Type",
+                        "value": "text"
+                    },
+                    "option": "text"
+                },
+                "869849f65db9be737e99bd24": {
+                    "id": "3b881d8d3073216bf7895440[intent keyword]",
+                    "name": "Intent Keyword",
+                    "value": {
+                        "id": "3b881d8d3073216bf7895440[intent keyword]",
+                        "name": "Intent Keyword",
+                        "value": "adjustDistance"
+                    }
+                },
+                "e7d374a1e2d32c5e67bc68cc": {
+                    "id": "3b881d8d3073216bf7895440[intent label]",
+                    "name": "Intent Label",
+                    "value": {
+                        "id": "3b881d8d3073216bf7895440[intent label]",
+                        "name": "Intent Label",
+                        "value": ""
+                    }
+                },
+                "3e8bfec67da28c354a969b46": {
+                    "id": "3b881d8d3073216bf7895440[nlu id]",
+                    "name": "NLU ID",
+                    "value": {
+                        "id": "3b881d8d3073216bf7895440[nlu id]",
+                        "name": "NLU ID",
+                        "value": "trendbot-knowledge"
+                    }
+                },
+                "8f8bee572ff26bedbfb46783": {
+                    "id": "3b881d8d3073216bf7895440[isfile]",
+                    "name": "IsFile",
+                    "value": {
+                        "id": "3b881d8d3073216bf7895440[isfile]",
+                        "name": "IsFile",
+                        "value": "false"
+                    }
+                },
+                "1ae4674949cfead101f6e8d8": {
+                    "id": "3b881d8d3073216bf7895440[fileurl]",
+                    "name": "FileURL",
+                    "value": {
+                        "id": "3b881d8d3073216bf7895440[fileurl]",
+                        "name": "FileURL",
+                        "value": ""
+                    }
+                },
+                "1b9710d3ac9dbdfd3b46110a": {
+                    "id": "3b881d8d3073216bf7895440[errormessage]",
+                    "name": "ErrorMessage",
+                    "value": {
+                        "id": "3b881d8d3073216bf7895440[errormessage]",
+                        "name": "ErrorMessage",
+                        "value": ""
+                    }
+                },
+                "90cd8b63ad44500486ddbb02": {
+                    "id": "3b881d8d3073216bf7895440[message]",
+                    "name": "Message",
+                    "value": {
+                        "id": "3b881d8d3073216bf7895440[message]",
+                        "name": "Message",
+                        "value": "{\"editor-3b881d8d3073216bf7895440message-1\":\"Okay, using distance [distance]. And what time range should I use?\"}"
+                    }
+                },
+                "02f10f2ddc5ad49fb427d09d": {
+                    "id": "3b881d8d3073216bf7895440[rateable]",
+                    "name": "Rateable",
+                    "value": {
+                        "id": "3b881d8d3073216bf7895440[rateable]",
+                        "name": "Rateable",
+                        "value": "false"
+                    }
+                }
+            }
+        },
+        "c743eb4f1538119d24fee9cc": {
+            "label": {
+                "id": "c743eb4f1538119d24fee9cc[label]",
+                "name": "Label",
+                "value": {
+                    "id": "c743eb4f1538119d24fee9cc[label]",
+                    "name": "Label",
+                    "value": ""
+                }
+            },
+            "left": 3526.130859374999,
+            "top": 3927.9398498535147,
+            "width": 50,
+            "height": 50,
+            "zIndex": 16078,
+            "type": "Incoming Message",
+            "attributes": {
+                "646c1466c4bf34e8267c4f27": {
+                    "id": "c743eb4f1538119d24fee9cc[type]",
+                    "name": "Type",
+                    "value": {
+                        "id": "c743eb4f1538119d24fee9cc[type]",
+                        "name": "Type",
+                        "value": "Text Message"
+                    },
+                    "option": "Text Message"
+                },
+                "5aefe0547e628a6019d3f613": {
+                    "id": "c743eb4f1538119d24fee9cc[followup message type]",
+                    "name": "Followup Message Type",
+                    "value": {
+                        "id": "c743eb4f1538119d24fee9cc[followup message type]",
+                        "name": "Followup Message Type",
+                        "value": "text"
+                    },
+                    "option": "text"
+                },
+                "869849f65db9be737e99bd24": {
+                    "id": "c743eb4f1538119d24fee9cc[intent keyword]",
+                    "name": "Intent Keyword",
+                    "value": {
+                        "id": "c743eb4f1538119d24fee9cc[intent keyword]",
+                        "name": "Intent Keyword",
+                        "value": "minCitations"
+                    }
+                },
+                "e7d374a1e2d32c5e67bc68cc": {
+                    "id": "c743eb4f1538119d24fee9cc[intent label]",
+                    "name": "Intent Label",
+                    "value": {
+                        "id": "c743eb4f1538119d24fee9cc[intent label]",
+                        "name": "Intent Label",
+                        "value": ""
+                    }
+                },
+                "3e8bfec67da28c354a969b46": {
+                    "id": "c743eb4f1538119d24fee9cc[nlu id]",
+                    "name": "NLU ID",
+                    "value": {
+                        "id": "c743eb4f1538119d24fee9cc[nlu id]",
+                        "name": "NLU ID",
+                        "value": "trendbot-knowledge"
+                    }
+                },
+                "8f8bee572ff26bedbfb46783": {
+                    "id": "c743eb4f1538119d24fee9cc[isfile]",
+                    "name": "IsFile",
+                    "value": {
+                        "id": "c743eb4f1538119d24fee9cc[isfile]",
+                        "name": "IsFile",
+                        "value": "false"
+                    }
+                },
+                "1ae4674949cfead101f6e8d8": {
+                    "id": "c743eb4f1538119d24fee9cc[fileurl]",
+                    "name": "FileURL",
+                    "value": {
+                        "id": "c743eb4f1538119d24fee9cc[fileurl]",
+                        "name": "FileURL",
+                        "value": ""
+                    }
+                },
+                "1b9710d3ac9dbdfd3b46110a": {
+                    "id": "c743eb4f1538119d24fee9cc[errormessage]",
+                    "name": "ErrorMessage",
+                    "value": {
+                        "id": "c743eb4f1538119d24fee9cc[errormessage]",
+                        "name": "ErrorMessage",
+                        "value": ""
+                    }
+                },
+                "90cd8b63ad44500486ddbb02": {
+                    "id": "c743eb4f1538119d24fee9cc[message]",
+                    "name": "Message",
+                    "value": {
+                        "id": "c743eb4f1538119d24fee9cc[message]",
+                        "name": "Message",
+                        "value": "{\"editor-c743eb4f1538119d24fee9ccmessage-1\":\"Sure, how often should publications be cited to be considered?\"}"
+                    }
+                },
+                "02f10f2ddc5ad49fb427d09d": {
+                    "id": "c743eb4f1538119d24fee9cc[rateable]",
+                    "name": "Rateable",
+                    "value": {
+                        "id": "c743eb4f1538119d24fee9cc[rateable]",
+                        "name": "Rateable",
+                        "value": "false"
+                    }
+                }
+            }
+        },
+        "5d599d443aeb7a852f0f3217": {
+            "label": {
+                "id": "5d599d443aeb7a852f0f3217[label]",
+                "name": "Label",
+                "value": {
+                    "id": "5d599d443aeb7a852f0f3217[label]",
+                    "name": "Label",
+                    "value": ""
+                }
+            },
+            "left": 2727.1308593749995,
+            "top": 3922.9398498535147,
+            "width": 50,
+            "height": 50,
+            "zIndex": 16079,
+            "type": "Incoming Message",
+            "attributes": {
+                "646c1466c4bf34e8267c4f27": {
+                    "id": "5d599d443aeb7a852f0f3217[type]",
+                    "name": "Type",
+                    "value": {
+                        "id": "5d599d443aeb7a852f0f3217[type]",
+                        "name": "Type",
+                        "value": "Text Message"
+                    },
+                    "option": "Text Message"
+                },
+                "5aefe0547e628a6019d3f613": {
+                    "id": "5d599d443aeb7a852f0f3217[followup message type]",
+                    "name": "Followup Message Type",
+                    "value": {
+                        "id": "5d599d443aeb7a852f0f3217[followup message type]",
+                        "name": "Followup Message Type",
+                        "value": "text"
+                    },
+                    "option": "text"
+                },
+                "869849f65db9be737e99bd24": {
+                    "id": "5d599d443aeb7a852f0f3217[intent keyword]",
+                    "name": "Intent Keyword",
+                    "value": {
+                        "id": "5d599d443aeb7a852f0f3217[intent keyword]",
+                        "name": "Intent Keyword",
+                        "value": "timeRange"
+                    }
+                },
+                "e7d374a1e2d32c5e67bc68cc": {
+                    "id": "5d599d443aeb7a852f0f3217[intent label]",
+                    "name": "Intent Label",
+                    "value": {
+                        "id": "5d599d443aeb7a852f0f3217[intent label]",
+                        "name": "Intent Label",
+                        "value": ""
+                    }
+                },
+                "3e8bfec67da28c354a969b46": {
+                    "id": "5d599d443aeb7a852f0f3217[nlu id]",
+                    "name": "NLU ID",
+                    "value": {
+                        "id": "5d599d443aeb7a852f0f3217[nlu id]",
+                        "name": "NLU ID",
+                        "value": "trendbot-knowledge"
+                    }
+                },
+                "8f8bee572ff26bedbfb46783": {
+                    "id": "5d599d443aeb7a852f0f3217[isfile]",
+                    "name": "IsFile",
+                    "value": {
+                        "id": "5d599d443aeb7a852f0f3217[isfile]",
+                        "name": "IsFile",
+                        "value": "false"
+                    }
+                },
+                "1ae4674949cfead101f6e8d8": {
+                    "id": "5d599d443aeb7a852f0f3217[fileurl]",
+                    "name": "FileURL",
+                    "value": {
+                        "id": "5d599d443aeb7a852f0f3217[fileurl]",
+                        "name": "FileURL",
+                        "value": ""
+                    }
+                },
+                "1b9710d3ac9dbdfd3b46110a": {
+                    "id": "5d599d443aeb7a852f0f3217[errormessage]",
+                    "name": "ErrorMessage",
+                    "value": {
+                        "id": "5d599d443aeb7a852f0f3217[errormessage]",
+                        "name": "ErrorMessage",
+                        "value": ""
+                    }
+                },
+                "90cd8b63ad44500486ddbb02": {
+                    "id": "5d599d443aeb7a852f0f3217[message]",
+                    "name": "Message",
+                    "value": {
+                        "id": "5d599d443aeb7a852f0f3217[message]",
+                        "name": "Message",
+                        "value": "{\"editor-5d599d443aeb7a852f0f3217message-1\":\"Okay, what time range should I filter for?\"}"
+                    }
+                },
+                "02f10f2ddc5ad49fb427d09d": {
+                    "id": "5d599d443aeb7a852f0f3217[rateable]",
+                    "name": "Rateable",
+                    "value": {
+                        "id": "5d599d443aeb7a852f0f3217[rateable]",
+                        "name": "Rateable",
+                        "value": "false"
+                    }
+                }
+            }
+        },
+        "c4c3b62e9bafb770da0cb1a8": {
+            "label": {
+                "id": "c4c3b62e9bafb770da0cb1a8[label]",
+                "name": "Label",
+                "value": {
+                    "id": "c4c3b62e9bafb770da0cb1a8[label]",
+                    "name": "Label",
+                    "value": ""
+                }
+            },
+            "left": 2971.129272460937,
+            "top": 3568.9654998779292,
+            "width": 50,
+            "height": 50,
+            "zIndex": 16080,
+            "type": "Incoming Message",
+            "attributes": {
+                "646c1466c4bf34e8267c4f27": {
+                    "id": "c4c3b62e9bafb770da0cb1a8[type]",
+                    "name": "Type",
+                    "value": {
+                        "id": "c4c3b62e9bafb770da0cb1a8[type]",
+                        "name": "Type",
+                        "value": "Text Message"
+                    },
+                    "option": "Text Message"
+                },
+                "5aefe0547e628a6019d3f613": {
+                    "id": "c4c3b62e9bafb770da0cb1a8[followup message type]",
+                    "name": "Followup Message Type",
+                    "value": {
+                        "id": "c4c3b62e9bafb770da0cb1a8[followup message type]",
+                        "name": "Followup Message Type",
+                        "value": "text"
+                    },
+                    "option": "text"
+                },
+                "869849f65db9be737e99bd24": {
+                    "id": "c4c3b62e9bafb770da0cb1a8[intent keyword]",
+                    "name": "Intent Keyword",
+                    "value": {
+                        "id": "c4c3b62e9bafb770da0cb1a8[intent keyword]",
+                        "name": "Intent Keyword",
+                        "value": "both"
+                    }
+                },
+                "e7d374a1e2d32c5e67bc68cc": {
+                    "id": "c4c3b62e9bafb770da0cb1a8[intent label]",
+                    "name": "Intent Label",
+                    "value": {
+                        "id": "c4c3b62e9bafb770da0cb1a8[intent label]",
+                        "name": "Intent Label",
+                        "value": ""
+                    }
+                },
+                "3e8bfec67da28c354a969b46": {
+                    "id": "c4c3b62e9bafb770da0cb1a8[nlu id]",
+                    "name": "NLU ID",
+                    "value": {
+                        "id": "c4c3b62e9bafb770da0cb1a8[nlu id]",
+                        "name": "NLU ID",
+                        "value": "trendbot-knowledge"
+                    }
+                },
+                "8f8bee572ff26bedbfb46783": {
+                    "id": "c4c3b62e9bafb770da0cb1a8[isfile]",
+                    "name": "IsFile",
+                    "value": {
+                        "id": "c4c3b62e9bafb770da0cb1a8[isfile]",
+                        "name": "IsFile",
+                        "value": "false"
+                    }
+                },
+                "1ae4674949cfead101f6e8d8": {
+                    "id": "c4c3b62e9bafb770da0cb1a8[fileurl]",
+                    "name": "FileURL",
+                    "value": {
+                        "id": "c4c3b62e9bafb770da0cb1a8[fileurl]",
+                        "name": "FileURL",
+                        "value": ""
+                    }
+                },
+                "1b9710d3ac9dbdfd3b46110a": {
+                    "id": "c4c3b62e9bafb770da0cb1a8[errormessage]",
+                    "name": "ErrorMessage",
+                    "value": {
+                        "id": "c4c3b62e9bafb770da0cb1a8[errormessage]",
+                        "name": "ErrorMessage",
+                        "value": ""
+                    }
+                },
+                "90cd8b63ad44500486ddbb02": {
+                    "id": "c4c3b62e9bafb770da0cb1a8[message]",
+                    "name": "Message",
+                    "value": {
+                        "id": "c4c3b62e9bafb770da0cb1a8[message]",
+                        "name": "Message",
+                        "value": "{\"editor-c4c3b62e9bafb770da0cb1a8message-1\":\"Alright, how many times should the papers at least be cited?\"}"
+                    }
+                },
+                "02f10f2ddc5ad49fb427d09d": {
+                    "id": "c4c3b62e9bafb770da0cb1a8[rateable]",
+                    "name": "Rateable",
+                    "value": {
+                        "id": "c4c3b62e9bafb770da0cb1a8[rateable]",
+                        "name": "Rateable",
+                        "value": "false"
+                    }
+                }
+            }
+        },
+        "7028b92533972ebbcfb55acf": {
+            "label": {
+                "id": "7028b92533972ebbcfb55acf[label]",
+                "name": "Label",
+                "value": {
+                    "id": "7028b92533972ebbcfb55acf[label]",
+                    "name": "Label",
+                    "value": ""
+                }
+            },
+            "left": 2973.4626057942705,
+            "top": 3370.2988332112627,
+            "width": 50,
+            "height": 50,
+            "zIndex": 16081,
+            "type": "Incoming Message",
+            "attributes": {
+                "646c1466c4bf34e8267c4f27": {
+                    "id": "7028b92533972ebbcfb55acf[type]",
+                    "name": "Type",
+                    "value": {
+                        "id": "7028b92533972ebbcfb55acf[type]",
+                        "name": "Type",
+                        "value": "Text Message"
+                    },
+                    "option": "Text Message"
+                },
+                "5aefe0547e628a6019d3f613": {
+                    "id": "7028b92533972ebbcfb55acf[followup message type]",
+                    "name": "Followup Message Type",
+                    "value": {
+                        "id": "7028b92533972ebbcfb55acf[followup message type]",
+                        "name": "Followup Message Type",
+                        "value": "text"
+                    },
+                    "option": "text"
+                },
+                "869849f65db9be737e99bd24": {
+                    "id": "7028b92533972ebbcfb55acf[intent keyword]",
+                    "name": "Intent Keyword",
+                    "value": {
+                        "id": "7028b92533972ebbcfb55acf[intent keyword]",
+                        "name": "Intent Keyword",
+                        "value": "adjustMinCitations"
+                    }
+                },
+                "e7d374a1e2d32c5e67bc68cc": {
+                    "id": "7028b92533972ebbcfb55acf[intent label]",
+                    "name": "Intent Label",
+                    "value": {
+                        "id": "7028b92533972ebbcfb55acf[intent label]",
+                        "name": "Intent Label",
+                        "value": ""
+                    }
+                },
+                "3e8bfec67da28c354a969b46": {
+                    "id": "7028b92533972ebbcfb55acf[nlu id]",
+                    "name": "NLU ID",
+                    "value": {
+                        "id": "7028b92533972ebbcfb55acf[nlu id]",
+                        "name": "NLU ID",
+                        "value": "trendbot-knowledge"
+                    }
+                },
+                "8f8bee572ff26bedbfb46783": {
+                    "id": "7028b92533972ebbcfb55acf[isfile]",
+                    "name": "IsFile",
+                    "value": {
+                        "id": "7028b92533972ebbcfb55acf[isfile]",
+                        "name": "IsFile",
+                        "value": "false"
+                    }
+                },
+                "1ae4674949cfead101f6e8d8": {
+                    "id": "7028b92533972ebbcfb55acf[fileurl]",
+                    "name": "FileURL",
+                    "value": {
+                        "id": "7028b92533972ebbcfb55acf[fileurl]",
+                        "name": "FileURL",
+                        "value": ""
+                    }
+                },
+                "1b9710d3ac9dbdfd3b46110a": {
+                    "id": "7028b92533972ebbcfb55acf[errormessage]",
+                    "name": "ErrorMessage",
+                    "value": {
+                        "id": "7028b92533972ebbcfb55acf[errormessage]",
+                        "name": "ErrorMessage",
+                        "value": ""
+                    }
+                },
+                "90cd8b63ad44500486ddbb02": {
+                    "id": "7028b92533972ebbcfb55acf[message]",
+                    "name": "Message",
+                    "value": {
+                        "id": "7028b92533972ebbcfb55acf[message]",
+                        "name": "Message",
+                        "value": "{\"editor-7028b92533972ebbcfb55acfmessage-1\":\"And what time range should I consider?\"}"
+                    }
+                },
+                "02f10f2ddc5ad49fb427d09d": {
+                    "id": "7028b92533972ebbcfb55acf[rateable]",
+                    "name": "Rateable",
+                    "value": {
+                        "id": "7028b92533972ebbcfb55acf[rateable]",
+                        "name": "Rateable",
+                        "value": "false"
                     }
                 }
             }
@@ -4400,36 +5177,6 @@
             "attributes": {},
             "type": "leadsTo"
         },
-        "48e243b73a6c0967e17b7b61": {
-            "label": {
-                "id": "48e243b73a6c0967e17b7b61[label]",
-                "name": "Label",
-                "value": {
-                    "id": "48e243b73a6c0967e17b7b61[label]",
-                    "name": "Label",
-                    "value": "adjustTimeRange+adjustDistance"
-                }
-            },
-            "source": "17b827c0872787a495d5f17a",
-            "target": "f49be9fe47ee91b70fd12a14",
-            "attributes": {},
-            "type": "leadsTo"
-        },
-        "39380a0f26e2f948fce6a718": {
-            "label": {
-                "id": "39380a0f26e2f948fce6a718[label]",
-                "name": "Label",
-                "value": {
-                    "id": "39380a0f26e2f948fce6a718[label]",
-                    "name": "Label",
-                    "value": "noAdjustments"
-                }
-            },
-            "source": "17b827c0872787a495d5f17a",
-            "target": "5b3a5de5738a231a638716be",
-            "attributes": {},
-            "type": "leadsTo"
-        },
         "d90fc93224b63b0c6959c72d": {
             "label": {
                 "id": "d90fc93224b63b0c6959c72d[label]",
@@ -4444,36 +5191,6 @@
             "target": "4b7c9aa61b5818003d3f16be",
             "attributes": {},
             "type": "generates"
-        },
-        "aaae2d5f48a2b1966fcb72cc": {
-            "label": {
-                "id": "aaae2d5f48a2b1966fcb72cc[label]",
-                "name": "Label",
-                "value": {
-                    "id": "aaae2d5f48a2b1966fcb72cc[label]",
-                    "name": "Label",
-                    "value": ""
-                }
-            },
-            "source": "5b3a5de5738a231a638716be",
-            "target": "7ee6965728e19d6f29713c7c",
-            "attributes": {},
-            "type": "triggers"
-        },
-        "6c2c995a4fecec46db378f15": {
-            "label": {
-                "id": "6c2c995a4fecec46db378f15[label]",
-                "name": "Label",
-                "value": {
-                    "id": "6c2c995a4fecec46db378f15[label]",
-                    "name": "Label",
-                    "value": ""
-                }
-            },
-            "source": "f49be9fe47ee91b70fd12a14",
-            "target": "7ee6965728e19d6f29713c7c",
-            "attributes": {},
-            "type": "triggers"
         },
         "30d59ceab18eaba0f603b92c": {
             "label": {
@@ -4512,7 +5229,7 @@
                 "value": {
                     "id": "edb0ba68bc3124e03f668d90[label]",
                     "name": "Label",
-                    "value": "adjustDistance,noAdjustments"
+                    "value": "adjustDistance,no"
                 }
             },
             "source": "30578ff0191dd59896bb973d",
@@ -4527,7 +5244,7 @@
                 "value": {
                     "id": "ac9c4a8edb53bc90fd06c5de[label]",
                     "name": "Label",
-                    "value": "adjustTimeRange,noAdjustments"
+                    "value": "adjustTimeRange,yearRangeIntent,no"
                 }
             },
             "source": "61b2591c8d80bb5259e54ae5",
@@ -4557,7 +5274,7 @@
                 "value": {
                     "id": "75c20db7efc3713096d9b7c0[label]",
                     "name": "Label",
-                    "value": "yes"
+                    "value": "confirm"
                 }
             },
             "source": "61b2591c8d80bb5259e54ae5",
@@ -4572,7 +5289,7 @@
                 "value": {
                     "id": "355f0f1da1221d22fe0dfd19[label]",
                     "name": "Label",
-                    "value": "adjustTimeRange"
+                    "value": "adjustTimeRange,yearRangeIntent"
                 }
             },
             "source": "40bf9153e554a2f76249c1cc",
@@ -4587,7 +5304,7 @@
                 "value": {
                     "id": "32ad44c1abedd9f50a3c19af[label]",
                     "name": "Label",
-                    "value": "yes"
+                    "value": "confirm"
                 }
             },
             "source": "30578ff0191dd59896bb973d",
@@ -4655,36 +5372,6 @@
             "attributes": {},
             "type": "generates"
         },
-        "7278cd62f18ffe7ee08c12a5": {
-            "label": {
-                "id": "7278cd62f18ffe7ee08c12a5[label]",
-                "name": "Label",
-                "value": {
-                    "id": "7278cd62f18ffe7ee08c12a5[label]",
-                    "name": "Label",
-                    "value": "repeatWithDistance"
-                }
-            },
-            "source": "5d14d1b54e18bdf29e48fe2d",
-            "target": "1b4963b57a4c0d4ec8d3cc13",
-            "attributes": {},
-            "type": "generates"
-        },
-        "c4fed54d46d9a3e0d8617ae9": {
-            "label": {
-                "id": "c4fed54d46d9a3e0d8617ae9[label]",
-                "name": "Label",
-                "value": {
-                    "id": "c4fed54d46d9a3e0d8617ae9[label]",
-                    "name": "Label",
-                    "value": "repeatWithTimeRange"
-                }
-            },
-            "source": "5d14d1b54e18bdf29e48fe2d",
-            "target": "33d66bf0b9eefc86042f1ce5",
-            "attributes": {},
-            "type": "generates"
-        },
         "17e255e61e5a9ab2c575b7e7": {
             "label": {
                 "id": "17e255e61e5a9ab2c575b7e7[label]",
@@ -4715,21 +5402,6 @@
             "attributes": {},
             "type": "leadsTo"
         },
-        "8ca867300f19c8a8a0e75f8a": {
-            "label": {
-                "id": "8ca867300f19c8a8a0e75f8a[label]",
-                "name": "Label",
-                "value": {
-                    "id": "8ca867300f19c8a8a0e75f8a[label]",
-                    "name": "Label",
-                    "value": "repeatWithDistance+repeatWithTimeRange"
-                }
-            },
-            "source": "5d14d1b54e18bdf29e48fe2d",
-            "target": "4ba37447a3cb88883c893d53",
-            "attributes": {},
-            "type": "generates"
-        },
         "5f7dd201eb1bada5bd418fe0": {
             "label": {
                 "id": "5f7dd201eb1bada5bd418fe0[label]",
@@ -4752,7 +5424,7 @@
                 "value": {
                     "id": "b153676dde27646a15059d46[label]",
                     "name": "Label",
-                    "value": "adjustTimeRange"
+                    "value": "adjustTimeRange,yearRangeIntent"
                 }
             },
             "source": "951ed0031d0933e06776922d",
@@ -4782,7 +5454,7 @@
                 "value": {
                     "id": "2e4526c4c082f3886d28aec4[label]",
                     "name": "Label",
-                    "value": "adjustTimeRange"
+                    "value": "adjustTimeRange,yearRangeIntent"
                 }
             },
             "source": "d0cfd1febfb7beebaed06bc7",
@@ -4820,21 +5492,6 @@
             "attributes": {},
             "type": "triggers"
         },
-        "eacb4f6211b23e7ed1698662": {
-            "label": {
-                "id": "eacb4f6211b23e7ed1698662[label]",
-                "name": "Label",
-                "value": {
-                    "id": "eacb4f6211b23e7ed1698662[label]",
-                    "name": "Label",
-                    "value": "no"
-                }
-            },
-            "source": "33d66bf0b9eefc86042f1ce5",
-            "target": "e8d5b51643f39fc8af2c0005",
-            "attributes": {},
-            "type": "triggers"
-        },
         "c61bab69f8385aa455fa1d0a": {
             "label": {
                 "id": "c61bab69f8385aa455fa1d0a[label]",
@@ -4857,7 +5514,7 @@
                 "value": {
                     "id": "a6711d70e7bc010ea1bca921[label]",
                     "name": "Label",
-                    "value": "yes"
+                    "value": "confirm"
                 }
             },
             "source": "1b4963b57a4c0d4ec8d3cc13",
@@ -4872,7 +5529,7 @@
                 "value": {
                     "id": "cb5830c40e7c86bd6fc13aba[label]",
                     "name": "Label",
-                    "value": "adjustTimeRange"
+                    "value": "adjustTimeRange,yearRangeIntent"
                 }
             },
             "source": "15bc26905c02b76d14d57165",
@@ -4887,7 +5544,7 @@
                 "value": {
                     "id": "fc0b08a0ccd3c176e494cf0f[label]",
                     "name": "Label",
-                    "value": "adjustTimeRange"
+                    "value": "adjustTimeRange,yearRangeIntent"
                 }
             },
             "source": "1b4963b57a4c0d4ec8d3cc13",
@@ -4902,7 +5559,7 @@
                 "value": {
                     "id": "e45d75eaca656e7e76073b6a[label]",
                     "name": "Label",
-                    "value": "yes"
+                    "value": "confirm"
                 }
             },
             "source": "33d66bf0b9eefc86042f1ce5",
@@ -5022,7 +5679,7 @@
                 "value": {
                     "id": "6a6889b5510051b5afd761f6[label]",
                     "name": "Label",
-                    "value": "adjustTimeRange"
+                    "value": "adjustTimeRange,yearRangeIntent"
                 }
             },
             "source": "bdb99f3c42f3c27725ca171e",
@@ -5045,36 +5702,6 @@
             "attributes": {},
             "type": "leadsTo"
         },
-        "c308f6d50ee9a7318adf5ac4": {
-            "label": {
-                "id": "c308f6d50ee9a7318adf5ac4[label]",
-                "name": "Label",
-                "value": {
-                    "id": "c308f6d50ee9a7318adf5ac4[label]",
-                    "name": "Label",
-                    "value": "adjustTimeRange+adjustMinCitations"
-                }
-            },
-            "source": "bdb99f3c42f3c27725ca171e",
-            "target": "4cefb4a51e6959889ede2302",
-            "attributes": {},
-            "type": "leadsTo"
-        },
-        "0c370f2d607f86f37620c558": {
-            "label": {
-                "id": "0c370f2d607f86f37620c558[label]",
-                "name": "Label",
-                "value": {
-                    "id": "0c370f2d607f86f37620c558[label]",
-                    "name": "Label",
-                    "value": ""
-                }
-            },
-            "source": "4cefb4a51e6959889ede2302",
-            "target": "c040bc90c5aa48749cd41bd9",
-            "attributes": {},
-            "type": "triggers"
-        },
         "13e5a298de75815c87eff86b": {
             "label": {
                 "id": "13e5a298de75815c87eff86b[label]",
@@ -5082,7 +5709,7 @@
                 "value": {
                     "id": "13e5a298de75815c87eff86b[label]",
                     "name": "Label",
-                    "value": "noAdjustments,adjustMinCitations"
+                    "value": "no,adjustMinCitations"
                 }
             },
             "source": "5144fc65e3fbc4d29df3b189",
@@ -5097,7 +5724,7 @@
                 "value": {
                     "id": "c3b0b67ca0714ed305b966fd[label]",
                     "name": "Label",
-                    "value": "noAdjustments,adjustTimeRange"
+                    "value": "no,adjustTimeRange,yearRangeIntent"
                 }
             },
             "source": "cd56fcbc6e643206293e0fca",
@@ -5112,7 +5739,7 @@
                 "value": {
                     "id": "f644ee71cd42e79f74f00890[label]",
                     "name": "Label",
-                    "value": "yes"
+                    "value": "confirm"
                 }
             },
             "source": "cd56fcbc6e643206293e0fca",
@@ -5127,7 +5754,7 @@
                 "value": {
                     "id": "59ec0e2970a1b6e971bcaf2a[label]",
                     "name": "Label",
-                    "value": "yes"
+                    "value": "confirm"
                 }
             },
             "source": "5144fc65e3fbc4d29df3b189",
@@ -5157,7 +5784,7 @@
                 "value": {
                     "id": "ba4efb5a99dfe6d915931976[label]",
                     "name": "Label",
-                    "value": "adjustTimeRange"
+                    "value": "adjustTimeRange,yearRangeIntent"
                 }
             },
             "source": "50255f6dd5633323d45928c5",
@@ -5202,7 +5829,7 @@
                 "value": {
                     "id": "dd626d145159936c0b2031d6[label]",
                     "name": "Label",
-                    "value": "noAdjustments"
+                    "value": "no"
                 }
             },
             "source": "bdb99f3c42f3c27725ca171e",
@@ -5299,6 +5926,291 @@
             "target": "b0684910d15bbad389769e80",
             "attributes": {},
             "type": "generates"
+        },
+        "1f5a3e6fe58343dbb34b2fcf": {
+            "label": {
+                "id": "1f5a3e6fe58343dbb34b2fcf[label]",
+                "name": "Label",
+                "value": {
+                    "id": "1f5a3e6fe58343dbb34b2fcf[label]",
+                    "name": "Label",
+                    "value": "both"
+                }
+            },
+            "source": "951ed0031d0933e06776922d",
+            "target": "9bf105ed5e24dc0514dd58a8",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "1b8b631a870fc4eb2224f2eb": {
+            "label": {
+                "id": "1b8b631a870fc4eb2224f2eb[label]",
+                "name": "Label",
+                "value": {
+                    "id": "1b8b631a870fc4eb2224f2eb[label]",
+                    "name": "Label",
+                    "value": "adjustDistance"
+                }
+            },
+            "source": "9bf105ed5e24dc0514dd58a8",
+            "target": "a6b55cab10c7fed5e57edab6",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "be3771697a3c13cd046458db": {
+            "label": {
+                "id": "be3771697a3c13cd046458db[label]",
+                "name": "Label",
+                "value": {
+                    "id": "be3771697a3c13cd046458db[label]",
+                    "name": "Label",
+                    "value": "adjustTimeRange,yearRangeIntent"
+                }
+            },
+            "source": "a6b55cab10c7fed5e57edab6",
+            "target": "e8d5b51643f39fc8af2c0005",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "05fe21627239748b060de6ff": {
+            "label": {
+                "id": "05fe21627239748b060de6ff[label]",
+                "name": "Label",
+                "value": {
+                    "id": "05fe21627239748b060de6ff[label]",
+                    "name": "Label",
+                    "value": "no"
+                }
+            },
+            "source": "33d66bf0b9eefc86042f1ce5",
+            "target": "e8d5b51643f39fc8af2c0005",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "0ed47e151f12cd592e73898f": {
+            "label": {
+                "id": "0ed47e151f12cd592e73898f[label]",
+                "name": "Label",
+                "value": {
+                    "id": "0ed47e151f12cd592e73898f[label]",
+                    "name": "Label",
+                    "value": "distance"
+                }
+            },
+            "source": "17b827c0872787a495d5f17a",
+            "target": "aceca3120f29d6e7283ee65d",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "45346a61b99a487676418274": {
+            "label": {
+                "id": "45346a61b99a487676418274[label]",
+                "name": "Label",
+                "value": {
+                    "id": "45346a61b99a487676418274[label]",
+                    "name": "Label",
+                    "value": "adjustDistance"
+                }
+            },
+            "source": "aceca3120f29d6e7283ee65d",
+            "target": "61b2591c8d80bb5259e54ae5",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "deefa827cbda81721ee3fd7b": {
+            "label": {
+                "id": "deefa827cbda81721ee3fd7b[label]",
+                "name": "Label",
+                "value": {
+                    "id": "deefa827cbda81721ee3fd7b[label]",
+                    "name": "Label",
+                    "value": "timeRange"
+                }
+            },
+            "source": "17b827c0872787a495d5f17a",
+            "target": "b441d91edea3f88288a72b67",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "82c5b033fe3e0ea04bbcaa9b": {
+            "label": {
+                "id": "82c5b033fe3e0ea04bbcaa9b[label]",
+                "name": "Label",
+                "value": {
+                    "id": "82c5b033fe3e0ea04bbcaa9b[label]",
+                    "name": "Label",
+                    "value": "adjustTimeRange,yearRangeIntent"
+                }
+            },
+            "source": "b441d91edea3f88288a72b67",
+            "target": "30578ff0191dd59896bb973d",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "9dfd4f2b953d6bdbd6a3645e": {
+            "label": {
+                "id": "9dfd4f2b953d6bdbd6a3645e[label]",
+                "name": "Label",
+                "value": {
+                    "id": "9dfd4f2b953d6bdbd6a3645e[label]",
+                    "name": "Label",
+                    "value": "no"
+                }
+            },
+            "source": "17b827c0872787a495d5f17a",
+            "target": "e89459287782fe85538aa871",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "6c5320698ed0465420e58993": {
+            "label": {
+                "id": "6c5320698ed0465420e58993[label]",
+                "name": "Label",
+                "value": {
+                    "id": "6c5320698ed0465420e58993[label]",
+                    "name": "Label",
+                    "value": "both"
+                }
+            },
+            "source": "17b827c0872787a495d5f17a",
+            "target": "294fe577448e64f621229cbd",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "fedd4b72bebe11b6d56f64a4": {
+            "label": {
+                "id": "fedd4b72bebe11b6d56f64a4[label]",
+                "name": "Label",
+                "value": {
+                    "id": "fedd4b72bebe11b6d56f64a4[label]",
+                    "name": "Label",
+                    "value": "adjustDistance"
+                }
+            },
+            "source": "294fe577448e64f621229cbd",
+            "target": "3b881d8d3073216bf7895440",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "f5af29a09b91af7ea39b61f6": {
+            "label": {
+                "id": "f5af29a09b91af7ea39b61f6[label]",
+                "name": "Label",
+                "value": {
+                    "id": "f5af29a09b91af7ea39b61f6[label]",
+                    "name": "Label",
+                    "value": "adjustTimeRange,yearRangeIntent"
+                }
+            },
+            "source": "3b881d8d3073216bf7895440",
+            "target": "e89459287782fe85538aa871",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "a8c61425e826a9154c78ed5d": {
+            "label": {
+                "id": "a8c61425e826a9154c78ed5d[label]",
+                "name": "Label",
+                "value": {
+                    "id": "a8c61425e826a9154c78ed5d[label]",
+                    "name": "Label",
+                    "value": "minCitations"
+                }
+            },
+            "source": "bdb99f3c42f3c27725ca171e",
+            "target": "c743eb4f1538119d24fee9cc",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "e455e0e1fd27ca48e9949427": {
+            "label": {
+                "id": "e455e0e1fd27ca48e9949427[label]",
+                "name": "Label",
+                "value": {
+                    "id": "e455e0e1fd27ca48e9949427[label]",
+                    "name": "Label",
+                    "value": "adjustMinCitations"
+                }
+            },
+            "source": "c743eb4f1538119d24fee9cc",
+            "target": "cd56fcbc6e643206293e0fca",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "99205d6e37bb1393093b1815": {
+            "label": {
+                "id": "99205d6e37bb1393093b1815[label]",
+                "name": "Label",
+                "value": {
+                    "id": "99205d6e37bb1393093b1815[label]",
+                    "name": "Label",
+                    "value": "timeRange"
+                }
+            },
+            "source": "bdb99f3c42f3c27725ca171e",
+            "target": "5d599d443aeb7a852f0f3217",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "7e9c3a2291bb4fef206d27ec": {
+            "label": {
+                "id": "7e9c3a2291bb4fef206d27ec[label]",
+                "name": "Label",
+                "value": {
+                    "id": "7e9c3a2291bb4fef206d27ec[label]",
+                    "name": "Label",
+                    "value": "adjustTimeRange,yearRangeIntent"
+                }
+            },
+            "source": "5d599d443aeb7a852f0f3217",
+            "target": "5144fc65e3fbc4d29df3b189",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "db1249558e8a31603da9ed00": {
+            "label": {
+                "id": "db1249558e8a31603da9ed00[label]",
+                "name": "Label",
+                "value": {
+                    "id": "db1249558e8a31603da9ed00[label]",
+                    "name": "Label",
+                    "value": "both"
+                }
+            },
+            "source": "bdb99f3c42f3c27725ca171e",
+            "target": "c4c3b62e9bafb770da0cb1a8",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "0e17d82af069b764a4bd1abb": {
+            "label": {
+                "id": "0e17d82af069b764a4bd1abb[label]",
+                "name": "Label",
+                "value": {
+                    "id": "0e17d82af069b764a4bd1abb[label]",
+                    "name": "Label",
+                    "value": "adjustMinCitations"
+                }
+            },
+            "source": "c4c3b62e9bafb770da0cb1a8",
+            "target": "7028b92533972ebbcfb55acf",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "d7633a2a00fbb0a1117c5c91": {
+            "label": {
+                "id": "d7633a2a00fbb0a1117c5c91[label]",
+                "name": "Label",
+                "value": {
+                    "id": "d7633a2a00fbb0a1117c5c91[label]",
+                    "name": "Label",
+                    "value": "adjustTimeRange,yearRangeIntent"
+                }
+            },
+            "source": "7028b92533972ebbcfb55acf",
+            "target": "5dd0bc97d17be42bd5cb8381",
+            "attributes": {},
+            "type": "leadsTo"
         }
     }
 }
