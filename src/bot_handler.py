@@ -15,21 +15,24 @@ class BotHandler:
 
     def process_repeat_request(self, request_body, last_query_session: QuerySession) -> tuple[dict, QuerySession]:
         updated_parameters: QueryRequest = self.__extract_query_parameters(
-            request_body
+            request_body, last_query_session.parameters
         )
 
-        parameters = {
-            **last_query_session.parameters,
-            **updated_parameters
-        }
-
         try:
-            query = self.create_session(parameters)
+            query = self.create_session(updated_parameters)
             query_session = QuerySession(
-                query["uuid"], parameters, last_query_session.chat_session)
+                query["uuid"], updated_parameters, last_query_session.chat_session)
+
+            text_lines = [
+                "Okay, I initiated a new analysis on the basis of your last one and the adjusted parameters:",
+                f"\t🔹 Topics: {', '.join(updated_parameters.topics)}",
+                f"\t🔹 Distance: {updated_parameters.distance}",
+                f"\t🔹 Time range: {updated_parameters.start_year}-{updated_parameters.end_year}",
+                "\nCollecting data, please wait ..."
+            ]
 
             return {
-                "text": "Okay, I initiated a new analysis on the basis of your last one and the adjusted parameters:\n\t🔹 Topics: {}\n\t🔹 Distance: {}\n\t🔹 Time range: {}-{}\n\nCollecting data, please wait ...""".format(", ".join(parameters.topics), parameters.distance, parameters.start_year, parameters.end_year),
+                "text": "\n".join(text_lines),
                 "closeContext": True
             }, query_session
         except Exception as e:
@@ -47,7 +50,7 @@ class BotHandler:
         chat_session = ChatSession(
             request_body["botName"],
             request_body["channel"],
-            "trenddetectionbot",
+            request_body["messenger"],
             self.sbf_base_url
         )
 
@@ -56,8 +59,16 @@ class BotHandler:
             query_session = QuerySession(
                 query["uuid"], parameters, chat_session)
 
+            text_lines = [
+                "Okay, I started a trend analysis for you for the following parameters:",
+                f"\t🔹 Topics: {', '.join(parameters.topics)}",
+                f"\t🔹 Distance: {parameters.distance}",
+                f"\t🔹 Time range: {parameters.start_year}-{parameters.end_year}",
+                "\nCollecting data, please wait ..."
+            ]
+
             return {
-                "text": "Okay, I started a trend analysis for you for the following parameters:\n\t🔹 Topics: {}\n\t🔹 Distance: {}\n\t🔹 Time range: {}-{}\n\nCollecting data, please wait ...""".format(", ".join(parameters.topics), parameters.distance, parameters.start_year, parameters.end_year),
+                "text": "\n".join(text_lines),
                 "closeContext": True
             }, query_session
         except Exception as e:
@@ -75,7 +86,7 @@ class BotHandler:
         chat_session = ChatSession(
             request_body["botName"],
             request_body["channel"],
-            "trenddetectionbot",
+            request_body["messenger"],
             self.sbf_base_url
         )
 
@@ -85,8 +96,16 @@ class BotHandler:
             query_session = QuerySession(
                 query["uuid"], parameters, chat_session)
 
+            text_lines = [
+                "Okay, I started a search for citation recommendations with the following parameters:",
+                f"\t🔹 Topics: {', '.join(parameters.topics)}",
+                f"\t🔹 Min citations: {parameters.min_citations}",
+                f"\t🔹 Time range: {parameters.start_year}-{parameters.end_year}",
+                "\nCollecting data, please wait ..."
+            ]
+
             return {
-                "text": "Okay, I started a search for citation recommendations with the following parameters:\n\t🔹 Topics: {}\n\t🔹 Min citations: {}\n\t🔹 Time range: {}-{}\n\nCollecting data, please wait ...""".format(", ".join(parameters.topics), parameters.min_citations, parameters.start_year, parameters.end_year),
+                "text": "\n".join(text_lines),
                 "closeContext": True
             }, query_session
         except Exception as e:
@@ -114,7 +133,6 @@ class BotHandler:
 
     async def track_analysis_progress(self, query_session: QuerySession):
         handled_progress = {
-            QueryProgress.DATA_RETRIEVAL: False,
             QueryProgress.ANALYSING_TRENDS: False,
             QueryProgress.CITATION_RETRIEVAL: False
         }
@@ -123,13 +141,14 @@ class BotHandler:
             session = self.get_query_summary(query_session.uuid)
 
             for progress in handled_progress:
+
                 if handled_progress[progress] or session["progress"] < progress:
                     continue
 
                 handled_progress[progress] = True
                 self.__process_progress(
                     query_session,
-                    handled_progress[progress]
+                    progress
                 )
 
             if all(handled_progress.values()) or session["progress"] == QueryProgress.FAILED:
@@ -153,10 +172,6 @@ class BotHandler:
             await asyncio.sleep(1)
 
     def __process_progress(self, query_session: QuerySession, progress: QueryProgress):
-        if progress == QueryProgress.DATA_RETRIEVAL:
-            query_session.chat_session.send_message(
-                "Retrieving relevant publications ..."
-            )
         if progress == QueryProgress.ANALYSING_TRENDS:
             self.__process_analysing_trends(query_session)
         if progress == QueryProgress.CITATION_RETRIEVAL:
@@ -170,33 +185,45 @@ class BotHandler:
         query = self.get_query(query_session.uuid)
         publication_count = sum(query["results"]["search_results"]["raw"])
         query_session.chat_session.send_message(
-            """Data retrieved. I found {} matching publications. Analysing Trends ...""".format(
-                publication_count)
+            f"Data retrieved. I found {publication_count} matching publications. Analysing Trends ..."
         )
 
     def __process_trend_results(self, query_session: QuerySession):
         query = self.get_query(query_session.uuid)
 
+        if all(trend["type"] == TrendType.NONE for trend in query["results"]["trend_results"]["sub_trends"]):
+            query_session.chat_session.send_message(
+                "There is neither a positive nor a negative trend for your topic."
+            )
+            return
+
         trend_messages = [
-            "Alright, I found the following trends for your topic:"
+            "Alright, I found the following trends for your topic:",
+            "",
         ]
 
-        for index, trend in enumerate(query["results"]["trend_results"]["sub_trends"]):
+        # No enumerate, since we skip NONE trends
+        counter = 1
+        for trend in query["results"]["trend_results"]["sub_trends"]:
             if trend["type"] == TrendType.NONE:
                 continue
 
             icon = "📈" if trend["type"] == TrendType.INCREASING else "📉"
+            trend_name = "Uptrend" if trend["type"] == TrendType.INCREASING else "Downtrend"
 
             trend_messages.append(
-                f"{index + 1}. {icon} {trend['type'].name.lower()} trend from {trend['start']} to {trend['end']}"
+                f"{counter}. {icon} **{trend_name}** from {trend['start']} to {trend['end']}"
             )
 
+            counter += 1
+
+        trend_messages.append("")
         trend_messages.append(
             query["results"]["trend_results"]["trend_description"]
         )
 
         trend_messages.append(
-            f"![Trend chart]({self.api_base_url}/api/queries/{query_session.uuid}/chart)"
+            f"[\u200B]({self.api_base_url}/api/queries/{query_session.uuid}/chart)"
         )
 
         query_session.chat_session.send_message("\n".join(trend_messages))
@@ -216,16 +243,20 @@ class BotHandler:
 
             lines.append(
                 f'** {authors}{i + 1}. "{publication["title"]}" ({publication["year"]})**')
-            lines.append(f"https://doi.org/{publication['doi']}")
+            lines.append(
+                f"(Link to Paper)[https://doi.org/{publication['doi']}]")
             lines.append(
                 f"Distance: {publication['distance']}, Citations: {publication['citations'] if publication['citations'] is not None else 'unknown'}")
             lines.append("--------------------------")
 
         query_session.chat_session.send_message("\n".join(lines))
 
-    def __extract_query_parameters(self, request_body) -> QueryRequest:
+    def __extract_query_parameters(self, request_body, overwrite: QueryRequest | None = None) -> QueryRequest:
         if "entities" not in request_body:
             return {}
+
+        print(request_body)
+        print(overwrite)
 
         config: QueryRequest = QueryRequest(
             query_type=QueryType.COMPLETE,
@@ -234,23 +265,28 @@ class BotHandler:
             start_year=1980,
             end_year=2022,
             min_citations=0
-        )
+        ) if overwrite is None else overwrite
 
         entities = request_body["entities"]
 
         if "distance" in entities:
             config.distance = float(entities["distance"]["value"])
 
-        if "startYear" in entities:
-            config.start_year = int(entities["startYear"]["value"])
+        if "yearRange" in entities:
+            years = entities["yearRange"]["value"].split("-")
+            config.start_year = int(years[0])
+            config.end_year = int(years[1])
+        else:
+            if "startYear" in entities:
+                config.start_year = int(entities["startYear"]["value"])
 
-        if "endYear" in entities:
-            config.end_year = int(entities["endYear"]["value"])
+            if "endYear" in entities:
+                config.end_year = int(entities["endYear"]["value"])
 
         if "minCitationCount" in entities:
             config.min_citations = int(entities["minCitationCount"]["value"])
 
-        for topic_keyword in ["topics", "analysis", "citrec", "trends"]:
+        for topic_keyword in ["topics", "citrec", "trends"]:
             if topic_keyword in entities:
                 config.topics = self.__parse_topics(
                     entities[topic_keyword]["value"])
