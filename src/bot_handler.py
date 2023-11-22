@@ -27,8 +27,7 @@ class BotHandler:
                 "Okay, I initiated a new analysis on the basis of your last one and the adjusted parameters:",
                 f"\t🔹 Topics: {', '.join(updated_parameters.topics)}",
                 f"\t🔹 Distance: {updated_parameters.distance}",
-                f"\t🔹 Time range: 
-                    {updated_parameters.start_year}-{updated_parameters.end_year}",
+                f"\t🔹 Time range: {updated_parameters.start_year}-{updated_parameters.end_year}",
                 "\nCollecting data, please wait ..."
             ]
 
