@@ -63,8 +63,7 @@ class BotHandler:
                 "Okay, I started a trend analysis for you for the following parameters:",
                 f"\t🔹 Topics: {', '.join(parameters.topics)}",
                 f"\t🔹 Distance: {parameters.distance}",
-                f"\t🔹 Time range: 
-                    {parameters.start_year}-{parameters.end_year}",
+                f"\t🔹 Time range: {parameters.start_year}-{parameters.end_year}",
                 "\nCollecting data, please wait ..."
             ]
 
@@ -101,8 +100,7 @@ class BotHandler:
                 "Okay, I started a search for citation recommendations with the following parameters:",
                 f"\t🔹 Topics: {', '.join(parameters.topics)}",
                 f"\t🔹 Min citations: {parameters.min_citations}",
-                f"\t🔹 Time range: 
-                    {parameters.start_year}-{parameters.end_year}",
+                f"\t🔹 Time range: {parameters.start_year}-{parameters.end_year}",
                 "\nCollecting data, please wait ..."
             ]
 
@@ -180,16 +178,14 @@ class BotHandler:
             self.__process_trend_results(query_session)
 
             query_session.chat_session.send_message(
-                f"For more results and insights into your chosen topic, [look here]({
-                    self.api_base_url}/results/{query_session.uuid})"
+                f"For more results and insights into your chosen topic, [look here]({self.api_base_url}/results/{query_session.uuid})"
             )
 
     def __process_analysing_trends(self, query_session: QuerySession):
         query = self.get_query(query_session.uuid)
         publication_count = sum(query["results"]["search_results"]["raw"])
         query_session.chat_session.send_message(
-            f"Data retrieved. I found {
-                publication_count} matching publications. Analysing Trends ..."
+            f"Data retrieved. I found {publication_count} matching publications. Analysing Trends ..."
         )
 
     def __process_trend_results(self, query_session: QuerySession):
@@ -216,8 +212,7 @@ class BotHandler:
             trend_name = "Uptrend" if trend["type"] == TrendType.INCREASING else "Downtrend"
 
             trend_messages.append(
-                f"{counter}. {
-                    icon} **{trend_name}** from {trend['start']} to {trend['end']}"
+                f"{counter}. {icon} **{trend_name}** from {trend['start']} to {trend['end']}"
             )
 
             counter += 1
