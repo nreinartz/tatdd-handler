@@ -222,7 +222,9 @@ class BotHandler:
             query["results"]["trend_results"]["trend_description"]
         )
 
-        trend_messages.append(
+        query_session.chat_session.send_message("\n".join(trend_messages))
+
+        query_session.chat_session.send_message(
             f"[\u200B]({self.api_base_url}/api/queries/{query_session.uuid}/chart)"
         )
 
