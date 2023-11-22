@@ -237,18 +237,18 @@ class BotHandler:
             "I found the following publications that might be suitable for your topic:"
         )
 
-        lines = ["=========================="]
+        lines = []
 
         for i, publication in enumerate(query["results"]["citation_results"]["publications"]):
             authors = publication["authors"][0] + \
                 (", et. al." if len(publication["authors"]) > 1 else "")
 
             lines.append(
-                f'** {authors}{i + 1}. "{publication["title"]}" ({publication["year"]})**')
+                f'*{i + 1}. "{publication["title"]}" ({authors}, int({publication["year"]}))*')
             lines.append(
-                f"(Link to Paper)[https://doi.org/{publication['doi']}]")
+                f"[Link to Paper](https://doi.org/{publication['doi']})")
             lines.append(
-                f"Distance: {publication['distance']}, Citations: {publication['citations'] if publication['citations'] is not None else 'unknown'}")
+                f"Distance: {np.round(publication['distance'], 2)}, Citations: {int(publication['citations']) if publication['citations'] is not None else 'unknown'}")
             lines.append("--------------------------")
 
         query_session.chat_session.send_message("\n".join(lines))
