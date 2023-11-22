@@ -224,11 +224,11 @@ class BotHandler:
 
         query_session.chat_session.send_message("\n".join(trend_messages))
 
+        query_session.chat_session.send_message(f"{self.api_base_url}/api/queries/{query_session.uuid}/chart")
+
         query_session.chat_session.send_message(
             f"[\u200B]({self.api_base_url}/api/queries/{query_session.uuid}/chart)"
         )
-
-        query_session.chat_session.send_message("\n".join(trend_messages))
 
     def __process_citation_recommendation_results(self, query_session: QuerySession):
         query = self.get_query(query_session.uuid)
