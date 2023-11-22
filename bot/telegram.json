@@ -104,7 +104,7 @@
                 }
             },
             "left": 4467.743489583333,
-            "top": 4818.879828559027,
+            "top": 4816.879828559027,
             "width": 50,
             "height": 50,
             "zIndex": 16003,
@@ -413,7 +413,7 @@
                     "value": {
                         "id": "4b7c9aa61b5818003d3f16be[message]",
                         "name": "Message",
-                        "value": "{\"editor-4b7c9aa61b5818003d3f16bemessage-1\":\"Sure. What topics do you want to analyse?\\n\\nUse the following format: \\n!topics topic1, topic2, \\\"Sentence, describing topic 3\\\"\",\"editor-4b7c9aa61b5818003d3f16bemessage-2\":\"Absolutely, tell me what topics should be analyzed.\\n\\nUse the following format: \\n!topics topic1, topic2, \\\"Sentence, describing topic 3\\\"\",\"editor-4b7c9aa61b5818003d3f16bemessage-3\":\"Can do, which topics do you want to have analyzed?\\n\\nUse the following format: \\n!topics topic1, topic2, \\\"Sentence, describing topic 3\\\"\",\"editor-4b7c9aa61b5818003d3f16bemessage-4\":\"Ok, for which topics?\\n\\nUse the following format: \\n!topics topic1, topic2, \\\"Sentence, describing topic 3\\\"\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -524,7 +524,7 @@
                     "value": {
                         "id": "17b827c0872787a495d5f17a[message]",
                         "name": "Message",
-                        "value": "{\"editor-17b827c0872787a495d5f17amessage-1\":\"Alright, I will analyse the following topics:\\n[topics]\\n\\nWhat parameters (distance, time range, both) do you want to adjust? If you want to use the default settings, simply say \\\"no\\\".\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -635,7 +635,7 @@
                     "value": {
                         "id": "61b2591c8d80bb5259e54ae5[message]",
                         "name": "Message",
-                        "value": "{\"editor-61b2591c8d80bb5259e54ae5message-1\":\"Alright, I adjusted the distance to [distance]. Do you want to adjust the time range as well?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -746,7 +746,7 @@
                     "value": {
                         "id": "30578ff0191dd59896bb973d[message]",
                         "name": "Message",
-                        "value": "{\"editor-30578ff0191dd59896bb973dmessage-1\":\"Confirmed. Do you want to adjust the distance as well?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -803,7 +803,7 @@
                     "value": {
                         "id": "e89459287782fe85538aa871[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "adjustDistance,adjustTimeRange,yearRangeIntent,no"
+                        "value": "adjustDistance,adjustTimeRange,yearRangeIntent,no,adjustDistance+adjustTimeRange"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -968,7 +968,7 @@
                     "value": {
                         "id": "40bf9153e554a2f76249c1cc[message]",
                         "name": "Message",
-                        "value": "{\"editor-40bf9153e554a2f76249c1ccmessage-1\":\"Okay. What range of publication years should I consider?\",\"editor-40bf9153e554a2f76249c1ccmessage-2\":\"Alright, tell me a start and/or end year of the range to consider.\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -1079,7 +1079,7 @@
                     "value": {
                         "id": "ccf25801edf73be7fccdaee1[message]",
                         "name": "Message",
-                        "value": "{\"editor-ccf25801edf73be7fccdaee1message-1\":\"As you wish. What distance should I use for the query?\",\"editor-ccf25801edf73be7fccdaee1message-2\":\"Okay, what distance should be used?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -1301,7 +1301,7 @@
                     "value": {
                         "id": "951ed0031d0933e06776922d[message]",
                         "name": "Message",
-                        "value": "{\"editor-951ed0031d0933e06776922dmessage-1\":\"Very well. Which parameters (distance, time range, both) do you want to adjust?\",\"editor-951ed0031d0933e06776922dmessage-2\":\"Sure, what parameters (distance, time range, both)  do you want to have adjusted?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -1412,7 +1412,7 @@
                     "value": {
                         "id": "1b4963b57a4c0d4ec8d3cc13[message]",
                         "name": "Message",
-                        "value": "{\"editor-1b4963b57a4c0d4ec8d3cc13message-1\":\"Do you want to adjust the time range as well?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -1523,7 +1523,7 @@
                     "value": {
                         "id": "33d66bf0b9eefc86042f1ce5[message]",
                         "name": "Message",
-                        "value": "{\"editor-33d66bf0b9eefc86042f1ce5message-1\":\"Do you want to adjust the distance as well?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -1681,7 +1681,7 @@
                     "value": {
                         "id": "78182b0893fdece9a30be28a[message]",
                         "name": "Message",
-                        "value": "{\"editor-78182b0893fdece9a30be28amessage-1\":\"Okay. Tell me what distance you would like to use.\",\"editor-78182b0893fdece9a30be28amessage-2\":\"Alright, which distance shall I use for the next analysis?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -1792,7 +1792,7 @@
                     "value": {
                         "id": "d0cfd1febfb7beebaed06bc7[message]",
                         "name": "Message",
-                        "value": "{\"editor-d0cfd1febfb7beebaed06bc7message-1\":\"Okay, to what year range do you want to adjust it?\",\"editor-d0cfd1febfb7beebaed06bc7message-2\":\"Got you, what year range should I use?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -1960,7 +1960,7 @@
                     "value": {
                         "id": "e8d5b51643f39fc8af2c0005[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "adjustTimeRange,yearRangeIntent,no"
+                        "value": "adjustTimeRange,yearRangeIntent,no,adjustDistance+adjustTimeRange"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -2569,7 +2569,7 @@
                     "value": {
                         "id": "b5a6c354541bc6c6e93b4383[message]",
                         "name": "Message",
-                        "value": "{\"editor-b5a6c354541bc6c6e93b4383message-1\":\"Sure. What topic(s) do you want citation recommendations for?\\n\\nUse the following format:\\n\\n!topics topic1\\n!topics topic1, topic2, \\\"Sentence, describing topic 3\\\"\",\"editor-b5a6c354541bc6c6e93b4383message-2\":\"Okay, tell me, which topic(s) do you want citation recommendations for?\\n\\nUse the following format:\\n\\n!topics topic1\\n!topics topic1, topic2, \\\"Sentence, describing topic 3\\\"\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -2680,7 +2680,7 @@
                     "value": {
                         "id": "bdb99f3c42f3c27725ca171e[message]",
                         "name": "Message",
-                        "value": "{\"editor-bdb99f3c42f3c27725ca171emessage-1\":\"Alright, I will search for citation recommendations for the following topics:\\n[topics]\\n\\nWhat parameters (min citation count, time range, both) do you want to adjust? If you want to use the default settings (0.11, 1980-2022), simply say \\\"no\\\".\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -2791,7 +2791,7 @@
                     "value": {
                         "id": "5144fc65e3fbc4d29df3b189[message]",
                         "name": "Message",
-                        "value": "{\"editor-5144fc65e3fbc4d29df3b189message-1\":\"Okay. Do you want to adjust the minimum number of citations for publications as well?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -2949,7 +2949,7 @@
                     "value": {
                         "id": "cd56fcbc6e643206293e0fca[message]",
                         "name": "Message",
-                        "value": "{\"editor-cd56fcbc6e643206293e0fcamessage-1\":\"Alright, do you want to adjust the time range as well?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -3060,7 +3060,7 @@
                     "value": {
                         "id": "2729af761ae508653859a679[message]",
                         "name": "Message",
-                        "value": "{\"editor-2729af761ae508653859a679message-1\":\"Sure, how often should publications be cited to be considered?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -3282,7 +3282,7 @@
                     "value": {
                         "id": "50255f6dd5633323d45928c5[message]",
                         "name": "Message",
-                        "value": "{\"editor-50255f6dd5633323d45928c5message-1\":\"Okay, what time range should I filter for?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -3421,7 +3421,7 @@
                     "value": {
                         "id": "9443c1d786a9dee21ad4d084[message]",
                         "name": "Message",
-                        "value": "{\"editor-9443c1d786a9dee21ad4d084message-1\":\"I am sorry, I did not understand your last message.\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -3532,7 +3532,7 @@
                     "value": {
                         "id": "34ad4242b4a9e345f1832db4[message]",
                         "name": "Message",
-                        "value": "{\"editor-34ad4242b4a9e345f1832db4message-1\":\"Hi! I am your friendly trend analysis and citation recommendation bot. How can I be of service to you today?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -3643,7 +3643,7 @@
                     "value": {
                         "id": "ab0ab6a79e53a30dc54e7248[message]",
                         "name": "Message",
-                        "value": "{\"editor-ab0ab6a79e53a30dc54e7248message-1\":\"I am a bot that can perform a trend analysis as well as provide you with citation recommendations for a single topic, combination of topics or a topic description of your choice. Besides giving you a quick overview of the results, I offer a separate WebUI with a more comprehensive view of your analysis.\\n\\nI support the following two quick commands\\n\\n• *!citrec topics (Citation recommendation)\\n• *!trends topics* (Trend analysis)\\n\\nExamples:\\n\\n• *!citrec blockchain*\\n• *!trends machine learning, deep vision*\\n\\nIn addition I support several conversation paths that allow you to customize the search parameters:\\n\\n• Start a new analysis\\n• Trend analysis\\n------\\n• Repeat the last analysis\\n• Repeat\\n------\\n• Start a new citation recommendation\\n• Start cit rec\\n\\nYou can also ask me what parameters you can adjust and how each one works.\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -3754,7 +3754,7 @@
                     "value": {
                         "id": "c60b47ba822cec17240f4610[message]",
                         "name": "Message",
-                        "value": "{\"editor-c60b47ba822cec17240f4610message-1\":\"You can adjust the following parameters:\\n• *Distance (0-2)*:  Defines how similar (cosine similarity) publications should be to your chosen topics to be considered for the analysis. *0* means the topics are identical and *2* means the topics are opposing each other.\\n• *Time range (1980-2022)*: Defines the time range the publications should be dating from (with a start and end year)\\n----------\\n• *Min citation count (>=0)*: Defines how often publications need to be cited to show up in citation recommendations\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -3865,7 +3865,7 @@
                     "value": {
                         "id": "b0684910d15bbad389769e80[message]",
                         "name": "Message",
-                        "value": "{\"editor-b0684910d15bbad389769e80message-1\":\"The distance defines how similar (cosine similarity) publications should be to your chosen topics to be considered for the analysis. *0* means the topics are identical and *2* means the topics are opposing each other. Fine-tune this to balance between relevance and diversity in your search outcomes. The default value for this is 0.11. Try to adjust this value in steps of +-0.01, depending on the amount of publications found for your topic.\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -3976,7 +3976,7 @@
                     "value": {
                         "id": "606ea39b55ef6875c71c60fc[message]",
                         "name": "Message",
-                        "value": "{\"editor-606ea39b55ef6875c71c60fcmessage-1\":\"The topic filter defines the topic you want to analyze. This can either be a single keyword, multiple keywords, a full text description or a combination of all. Multiple descriptions are separated with a comma (,). Full-text descriptions that contain a comma as part of their text need to be enclosed in quotes:\\n\\n• machine learning\\n• blockchain, bitcoin\\n• \\\"Time-series based, Academic Trend and Downtrend detection\\\"\\n\\nIt is important to understand the effects of using a list of topics instead of a single topic description. Let's take the concept of \\\"machine learning\\\" as an example. Suppose we were to list only the keywords and search for *machine* and *learning*. In this case, both individual words would be searched for separately, but not the actual concept being searched for. Accordingly, we should search directly for *machine learning* without splitting the keywords.\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4000,8 +4000,8 @@
                     "value": ""
                 }
             },
-            "left": 5027.660505022321,
-            "top": 3842.8569379534038,
+            "left": 5055.660505022321,
+            "top": 3990.8569379534038,
             "width": 50,
             "height": 50,
             "zIndex": 16072,
@@ -4087,7 +4087,7 @@
                     "value": {
                         "id": "9bf105ed5e24dc0514dd58a8[message]",
                         "name": "Message",
-                        "value": "{\"editor-9bf105ed5e24dc0514dd58a8message-1\":\"As you wish. What distance should I use for the next analysis?\",\"editor-9bf105ed5e24dc0514dd58a8message-2\":\"Alright, what distance should I use?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4111,8 +4111,8 @@
                     "value": ""
                 }
             },
-            "left": 5314.660505022321,
-            "top": 3847.8439985002788,
+            "left": 5352.660505022321,
+            "top": 3997.8439985002788,
             "width": 50,
             "height": 50,
             "zIndex": 16073,
@@ -4198,7 +4198,7 @@
                     "value": {
                         "id": "a6b55cab10c7fed5e57edab6[message]",
                         "name": "Message",
-                        "value": "{\"editor-a6b55cab10c7fed5e57edab6message-1\":\"Okay, I adjusted the distance to [distance]. What time range should I consider?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4309,7 +4309,7 @@
                     "value": {
                         "id": "aceca3120f29d6e7283ee65d[message]",
                         "name": "Message",
-                        "value": "{\"editor-aceca3120f29d6e7283ee65dmessage-1\":\"Sure. What distance should I use for the request?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4420,7 +4420,7 @@
                     "value": {
                         "id": "b441d91edea3f88288a72b67[message]",
                         "name": "Message",
-                        "value": "{\"editor-b441d91edea3f88288a72b67message-1\":\"Okay, what time range should I use?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4531,7 +4531,7 @@
                     "value": {
                         "id": "294fe577448e64f621229cbd[message]",
                         "name": "Message",
-                        "value": "{\"editor-294fe577448e64f621229cbdmessage-1\":\"Okay, both parameters. What distance do you want to use?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4642,7 +4642,7 @@
                     "value": {
                         "id": "3b881d8d3073216bf7895440[message]",
                         "name": "Message",
-                        "value": "{\"editor-3b881d8d3073216bf7895440message-1\":\"Okay, using distance [distance]. And what time range should I use?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4666,8 +4666,8 @@
                     "value": ""
                 }
             },
-            "left": 3526.130859374999,
-            "top": 3927.9398498535147,
+            "left": 3520.130859374999,
+            "top": 3935.9398498535147,
             "width": 50,
             "height": 50,
             "zIndex": 16078,
@@ -4753,7 +4753,7 @@
                     "value": {
                         "id": "c743eb4f1538119d24fee9cc[message]",
                         "name": "Message",
-                        "value": "{\"editor-c743eb4f1538119d24fee9ccmessage-1\":\"Sure, how often should publications be cited to be considered?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4864,7 +4864,7 @@
                     "value": {
                         "id": "5d599d443aeb7a852f0f3217[message]",
                         "name": "Message",
-                        "value": "{\"editor-5d599d443aeb7a852f0f3217message-1\":\"Okay, what time range should I filter for?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4975,7 +4975,7 @@
                     "value": {
                         "id": "c4c3b62e9bafb770da0cb1a8[message]",
                         "name": "Message",
-                        "value": "{\"editor-c4c3b62e9bafb770da0cb1a8message-1\":\"Alright, how many times should the papers at least be cited?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -5086,7 +5086,7 @@
                     "value": {
                         "id": "7028b92533972ebbcfb55acf[message]",
                         "name": "Message",
-                        "value": "{\"editor-7028b92533972ebbcfb55acfmessage-1\":\"And what time range should I consider?\"}"
+                        "value": "{}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -6054,7 +6054,7 @@
                 "value": {
                     "id": "9dfd4f2b953d6bdbd6a3645e[label]",
                     "name": "Label",
-                    "value": "no"
+                    "value": "no,adjustDistance+adjustTimeRange"
                 }
             },
             "source": "17b827c0872787a495d5f17a",
@@ -6209,6 +6209,21 @@
             },
             "source": "7028b92533972ebbcfb55acf",
             "target": "5dd0bc97d17be42bd5cb8381",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "f03eafbc3170a98daaec7a04": {
+            "label": {
+                "id": "f03eafbc3170a98daaec7a04[label]",
+                "name": "Label",
+                "value": {
+                    "id": "f03eafbc3170a98daaec7a04[label]",
+                    "name": "Label",
+                    "value": "adjustDistance+adjustTimeRange"
+                }
+            },
+            "source": "951ed0031d0933e06776922d",
+            "target": "e8d5b51643f39fc8af2c0005",
             "attributes": {},
             "type": "leadsTo"
         }

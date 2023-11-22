@@ -56,7 +56,7 @@
                     "value": "trenddetectionbot-rocket"
                 }
             },
-            "left": 3878.2783203125,
+            "left": 3879.2783203125,
             "top": 4312.073806762695,
             "width": 50,
             "height": 50,
@@ -103,8 +103,8 @@
                     "value": "trendbot-knowledge"
                 }
             },
-            "left": 4465.743489583333,
-            "top": 4818.879828559027,
+            "left": 4467.743489583333,
+            "top": 4816.879828559027,
             "width": 50,
             "height": 50,
             "zIndex": 16003,
@@ -803,7 +803,7 @@
                     "value": {
                         "id": "e89459287782fe85538aa871[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "adjustDistance,adjustTimeRange,yearRangeIntent,no"
+                        "value": "adjustDistance,adjustTimeRange,yearRangeIntent,no,adjustDistance+adjustTimeRange"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -1960,7 +1960,7 @@
                     "value": {
                         "id": "e8d5b51643f39fc8af2c0005[intent keyword]",
                         "name": "Intent Keyword",
-                        "value": "adjustTimeRange,yearRangeIntent,no"
+                        "value": "adjustTimeRange,yearRangeIntent,no,adjustDistance+adjustTimeRange"
                     }
                 },
                 "e7d374a1e2d32c5e67bc68cc": {
@@ -3643,7 +3643,7 @@
                     "value": {
                         "id": "ab0ab6a79e53a30dc54e7248[message]",
                         "name": "Message",
-                        "value": "{\"editor-ab0ab6a79e53a30dc54e7248message-1\":\"I am a bot that can perform a trend analysis as well as provide you with citation recommendations for a single topic, combination of topics or a topic description of your choice. Besides giving you a quick overview of the results, I offer a separate WebUI with a more comprehensive view of your analysis.\\n\\nI support the following two quick commands\\n\\n• *!citrec topics (Citation recommendation)\\n• *!trends topics* (Trend analysis)\\n\\nExamples:\\n\\n• *!citrec blockchain*\\n• *!trends machine learning, deep vision*\\n\\nIn addition I support several conversation paths that allow you to customize the search parameters:\\n\\n• Start a new analysis\\n• Trend analysis\\n------\\n• Repeat the last analysis\\n• Repeat\\n------\\n• Start a new citation recommendation\\n• Start cit rec\\n\\nYou can also ask me what parameters you can adjust and how each one works.\"}"
+                        "value": "{\"editor-ab0ab6a79e53a30dc54e7248message-1\":\"I am a bot that can perform a trend analysis as well as provide you with citation recommendations for a single topic, combination of topics or a topic description of your choice. Besides giving you a quick overview of the results, I offer a separate WebUI with a more comprehensive view of your analysis.\\n\\nI support the following two quick commands\\n\\n• *!citrec topics* (Citation recommendation)\\n• *!trends topics* (Trend analysis)\\n\\nExamples:\\n\\n• *!citrec blockchain*\\n• *!trends machine learning, deep vision*\\n\\nIn addition I support several conversation paths that allow you to customize the search parameters:\\n\\n• Start a new analysis\\n• Trend analysis\\n------\\n• Repeat the last analysis\\n• Repeat\\n------\\n• Start a new citation recommendation\\n• Start cit rec\\n\\nYou can also ask me what parameters you can adjust and how each one works.\"}"
                     }
                 },
                 "02f10f2ddc5ad49fb427d09d": {
@@ -4000,8 +4000,8 @@
                     "value": ""
                 }
             },
-            "left": 5027.660505022321,
-            "top": 3842.8569379534038,
+            "left": 5055.660505022321,
+            "top": 3990.8569379534038,
             "width": 50,
             "height": 50,
             "zIndex": 16072,
@@ -4111,8 +4111,8 @@
                     "value": ""
                 }
             },
-            "left": 5314.660505022321,
-            "top": 3847.8439985002788,
+            "left": 5352.660505022321,
+            "top": 3997.8439985002788,
             "width": 50,
             "height": 50,
             "zIndex": 16073,
@@ -4666,8 +4666,8 @@
                     "value": ""
                 }
             },
-            "left": 3526.130859374999,
-            "top": 3927.9398498535147,
+            "left": 3520.130859374999,
+            "top": 3935.9398498535147,
             "width": 50,
             "height": 50,
             "zIndex": 16078,
@@ -6054,7 +6054,7 @@
                 "value": {
                     "id": "9dfd4f2b953d6bdbd6a3645e[label]",
                     "name": "Label",
-                    "value": "no"
+                    "value": "no,adjustDistance+adjustTimeRange"
                 }
             },
             "source": "17b827c0872787a495d5f17a",
@@ -6209,6 +6209,21 @@
             },
             "source": "7028b92533972ebbcfb55acf",
             "target": "5dd0bc97d17be42bd5cb8381",
+            "attributes": {},
+            "type": "leadsTo"
+        },
+        "f03eafbc3170a98daaec7a04": {
+            "label": {
+                "id": "f03eafbc3170a98daaec7a04[label]",
+                "name": "Label",
+                "value": {
+                    "id": "f03eafbc3170a98daaec7a04[label]",
+                    "name": "Label",
+                    "value": "adjustDistance+adjustTimeRange"
+                }
+            },
+            "source": "951ed0031d0933e06776922d",
+            "target": "e8d5b51643f39fc8af2c0005",
             "attributes": {},
             "type": "leadsTo"
         }
