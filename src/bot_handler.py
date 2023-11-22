@@ -245,7 +245,7 @@ class BotHandler:
                 (", et. al." if len(publication["authors"]) > 1 else "")
 
             lines.append(
-                f'*{i + 1}. "{publication["title"]}" ({authors}, int({publication["year"]}))*')
+                f'*{i + 1}. "{publication["title"]}" ({authors}, {int(publication["year"])})*')
             lines.append(
                 f"[Link to Paper](https://doi.org/{publication['doi']})")
             lines.append(
