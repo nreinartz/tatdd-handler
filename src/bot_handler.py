@@ -26,7 +26,7 @@ class BotHandler:
             text_lines = [
                 "Okay, I initiated a new analysis on the basis of your last one and the adjusted parameters:",
                 f"\t🔹 Topics: {', '.join(updated_parameters.topics)}",
-                f"\t🔹 Distance: {updated_parameters.distance}",
+                f"\t🔹 Cutoff: {updated_parameters.cutoff}",
                 f"\t🔹 Time range: {updated_parameters.start_year}-{updated_parameters.end_year}",
                 "\nCollecting data, please wait ..."
             ]
@@ -62,7 +62,7 @@ class BotHandler:
             text_lines = [
                 "Okay, I started a trend analysis for you for the following parameters:",
                 f"\t🔹 Topics: {', '.join(parameters.topics)}",
-                f"\t🔹 Distance: {parameters.distance}",
+                f"\t🔹 Cutoff: {parameters.cutoff}",
                 f"\t🔹 Time range: {parameters.start_year}-{parameters.end_year}",
                 "\nCollecting data, please wait ..."
             ]
@@ -251,7 +251,7 @@ class BotHandler:
             lines.append(
                 f"[Link to Paper](https://doi.org/{publication['doi']})")
             lines.append(
-                f"Distance: {round(publication['distance'], 2)}, Citations: {int(publication['citations']) if publication['citations'] is not None else 'unknown'}")
+                f"Similarity: {round(publication['similarity'], 2)}, Citations: {int(publication['citations']) if publication['citations'] is not None else 'unknown'}")
             lines.append("--------------------------")
 
         query_session.chat_session.send_message("\n".join(lines))
@@ -266,7 +266,7 @@ class BotHandler:
         config: QueryRequest = QueryRequest(
             query_type=QueryType.COMPLETE,
             topics=[],
-            distance=0.11,
+            cutoff=0.89,
             start_year=1980,
             end_year=2022,
             min_citations=0
@@ -274,8 +274,8 @@ class BotHandler:
 
         entities = request_body["entities"]
 
-        if "distance" in entities:
-            config.distance = float(entities["distance"]["value"])
+        if "cutoff" in entities:
+            config.cutoff = float(entities["cutoff"]["value"])
 
         if "yearRange" in entities:
             years = entities["yearRange"]["value"].split("-")

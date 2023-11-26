@@ -33,7 +33,7 @@ class QueryRequest:
     topics: list[str]
     start_year: int
     end_year: int
-    distance: float = 0.11
+    cutoff: float = 0.89
     min_citations: int = 0
 
 
@@ -68,7 +68,7 @@ class Publication:
     authors: list[str]
     year: int
     type: str
-    distance: float
+    similarity: float
     abstract: str
     citations: int
 
@@ -117,7 +117,7 @@ class QueryEntry:
     topics: list[str]
     start_year: int
     end_year: int
-    distance: float
+    cutoff: float
     min_citations: int
     results: None | AnalysisResults
 
