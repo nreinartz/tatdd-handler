@@ -183,7 +183,8 @@ class BotHandler:
 
     def __process_analysing_trends(self, query_session: QuerySession):
         query = self.get_query(query_session.uuid)
-        publication_count = sum(query["results"]["search_results"]["raw"])
+        publication_count = sum(
+            query["results"]["search_results"]["raw_per_year"])
         query_session.chat_session.send_message(
             f"Data retrieved. I found {publication_count} matching publications. Analysing Trends ..."
         )
@@ -251,7 +252,7 @@ class BotHandler:
             lines.append(
                 f"[Link to Paper](https://doi.org/{publication['doi']})")
             lines.append(
-                f"Similarity: {round(publication['similarity'], 2)}, Citations: {int(publication['citations']) if publication['citations'] is not None else 'unknown'}")
+                f"Similarity: {round(publication['similarity'], 3)}, Citations: {int(publication['citations']) if publication['citations'] is not None else 'unknown'}")
             lines.append("--------------------------")
 
         query_session.chat_session.send_message("\n".join(lines))
